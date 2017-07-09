@@ -7,7 +7,6 @@ My configuration files for Home Assistant
 ![floorplan](screenshots/ha-floorplan.png "Floorplan Screenshot")
 
 
-
 ![lounge](screenshots/ha-lounge.png "Lounge Screenshot")
 
 ## Hardware used ##
