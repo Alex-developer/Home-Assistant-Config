@@ -2,5 +2,5 @@
   base_url: !secret http_url
   ip_ban_enabled: True
   login_attempts_threshold: 5
-  ssl_certificate: /etc/letsencrypt/live/alexjg.mynetgear.com/fullchain.pem
-  ssl_key: /etc/letsencrypt/live/alexjg.mynetgear.com/privkey.pem
+  ssl_certificate: !secret ssl_certificate
+  ssl_key: !secret ssl_key
