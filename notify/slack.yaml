@@ -14,3 +14,7 @@
     platform: slack
     api_key: !secret slack_api_key_home
     default_channel: '#floods'
+  - name: slackupdates
+    platform: slack
+    api_key: !secret slack_api_key_home
+    default_channel: '#updates'
