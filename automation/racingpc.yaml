@@ -1,0 +1,38 @@
+  - alias: racingpc_restart
+    trigger:
+      platform: state
+      entity_id: input_select.racingpc
+      to: "Restart"
+    action:
+      - service: shell_command.restart_racingpc
+  - alias: racingpc_shutdown
+    trigger:
+      platform: state
+      entity_id: input_select.racingpc
+      to: "Shutdown"
+    action:
+      - service: shell_command.shutdown_racingpc
+  - alias: racingpc_sleep
+    trigger:
+      platform: state
+      entity_id: input_select.racingpc
+      to: "Sleep"
+    action:
+      - service: shell_command.sleep_racingpc
+  - alias: racingpc_hibernate
+    trigger:
+      platform: state
+      entity_id: input_select.racingpc
+      to: "Hibernate"
+    action:
+      - service: shell_command.hibernate_racingpc
+
+  - alias: Boot Racing PC
+    trigger:
+      platform: state
+      entity_id: switch.racing
+      to: "onfff"
+    action:
+       service: notify.slacklogin
+       data:
+         message: "On"

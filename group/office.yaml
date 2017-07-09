@@ -1,0 +1,44 @@
+  office:
+    name: Office
+    view: yes
+    entities:
+      - group.officeswitches
+      - group.officelights
+      - group.racingpc
+      - group.officemotion
+      - group.officeenv
+      - group.officecooling
+      - camera.office
+      - media_player.office
+      - media_player.spotify
+      - scene.racing_on
+      - scene.racing_off
+  officelights:
+    name: Lights
+    entities:
+      - light.office
+  officeswitches:
+    name: Switches
+    entities:
+      - switch.racing
+      - switch.office_desk
+      - switch.racing_pc_wol
+  racingpc:
+    name: Racing PC
+    entities:
+      - sensor.racingpc
+      - input_select.racingpc
+  officecooling:
+    name: Cooling
+    entities:
+      - switch.office_fan
+  officemotion:
+    name: "Office Motion"
+    entities:
+      - sensor.office_motion
+  officeenv:
+    name: "Environment"
+    entities:
+      - sensor.office_lux
+      - sensor.office_temperature
+      - sensor.neo_coolcam_water_leakage_detector_flood

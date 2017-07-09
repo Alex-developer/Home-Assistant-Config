@@ -1,0 +1,25 @@
+- alias: 'Office Flood'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.neo_coolcam_water_leakage_detector_flood
+    above: 0
+  action:
+    - service: notify.slackflood
+      data:
+        message: "The office is flooding"
+    - service: notify.alex_notify
+      data:
+        message: "The office is flooding"
+
+- alias: 'Office Flood'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.neo_coolcam_water_leakage_detector_flood
+    below: 1
+  action:
+    - service: notify.slackflood
+      data:
+        message: "The office is NOT flooding"
+    - service: notify.alex_notify
+      data:
+        message: "The office is NOT flooding"

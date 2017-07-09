@@ -1,0 +1,5 @@
+  - platform: flux_led
+    devices:
+      192.168.1.40:
+        name: 'Kitchen Bottom'
+        mode: "rgbw"

@@ -1,0 +1,29 @@
+  kitchen:
+    name: Kitchen
+    view: yes
+    entities:
+      - group.kitchenlights
+      - group.kitchenenv
+      - group.kitchenmotion
+      - media_player.kitchen_home
+      - camera.kitchen
+  kitchenlights:
+    name: "Lights"
+    entities:
+      - light.kitchen_1
+      - light.kitchen_2
+      - light.kitchen_3
+      - light.kitchen_bottom
+      - light.kitchen_lightstrip
+  kitchenmotion:
+    name: "Motion"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_burglar_2
+  kitchenenv:
+    name: "Environment"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_temperature_2
+      - sensor.kitchen_temperature_alex
+      - sensor.aeotec_zw100_multisensor_6_luminance_2
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_2
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_2

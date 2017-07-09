@@ -1,0 +1,120 @@
+  - platform: template
+    sensors:
+      aurora:
+        value_template: '{{ states.binary_sensor.aurora_visibility.attributes.message}}'
+        friendly_name: 'Aurora'
+      aurora_level:
+        value_template: '{{ states.binary_sensor.aurora_visibility.attributes.visibility_level}}'
+        friendly_name: 'Aurora Visibility'
+      iss_people_onboard:
+        value_template: '{{ states.binary_sensor.iss.attributes.number_of_people_in_space}}'
+        friendly_name: 'People In Space'
+      iss_lat:
+        value_template: '{{ states.binary_sensor.iss.attributes.lat}}'
+        friendly_name: 'ISS Lat'
+      iss_lon:
+        value_template: '{{ states.binary_sensor.iss.attributes.long}}'
+        friendly_name: 'ISS Lon'
+      iss_rise:
+        value_template: '{{ states.binary_sensor.iss.attributes.next_rise}}'
+        friendly_name: 'ISS Aos'
+      chargers_volts:
+        value_template: '{{ states.switch.chargers.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      chargers_current:
+        value_template: '{{ states.switch.chargers.attributes.Current }}'
+        unit_of_measurement: 'A'
+      chargers_power:
+        value_template: '{{ states.switch.chargers.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      office_fan_volts:
+        value_template: '{{ states.switch.office_fan.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      office_fan_current:
+        value_template: '{{ states.switch.office_fan.attributes.Current }}'
+        unit_of_measurement: 'A'
+      office_fan_power:
+        value_template: '{{ states.switch.office_fan.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      alex_volts:
+        value_template: '{{ states.switch.alex.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      alex_current:
+        value_template: '{{ states.switch.alex.attributes.Current }}'
+        unit_of_measurement: 'A'
+      alex_power:
+        value_template: '{{ states.switch.alex.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      becs_volts:
+        value_template: '{{ states.switch.becs.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      becs_current:
+        value_template: '{{ states.switch.becs.attributes.Current }}'
+        unit_of_measurement: 'A'
+      becs_power:
+        value_template: '{{ states.switch.becs.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      desk_volts:
+        value_template: '{{ states.switch.office_desk.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      desk_current:
+        value_template: '{{ states.switch.office_desk.attributes.Current }}'
+        unit_of_measurement: 'A'
+      desk_power:
+        value_template: '{{ states.switch.office_desk.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      racing_volts:
+        value_template: '{{ states.switch.racing.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      racing_current:
+        value_template: '{{ states.switch.racing.attributes.Current }}'
+        unit_of_measurement: 'A'
+      racing_power:
+        value_template: '{{ states.switch.racing.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      pi_server_volts:
+        value_template: '{{ states.switch.pi_server.attributes.Voltage }}'
+        unit_of_measurement: 'V'
+      p_server_current:
+        value_template: '{{ states.switch.pi_server.attributes.Current }}'
+        unit_of_measurement: 'A'
+      pi_server_power:
+        value_template: '{{ states.switch.pi_server.attributes["Current consumption"] }}'
+        unit_of_measurement: 'W'
+      ring_last_ding:
+        friendly_name: Last Ding Time
+        value_template: "{{ as_timestamp(states.sensor.ring_front_door_last_ding.attributes.created_at) |  timestamp_custom('%d %b %-I:%M %P') }}"
+      ring_last_activity:
+        friendly_name: Last Activity Time
+        value_template: "{{ as_timestamp(states.sensor.ring_front_door_last_activity.attributes.created_at) |  timestamp_custom('%d %b %-I:%M %P') }}"
+      ring_last_motion:
+        friendly_name: Last Motion Time
+        value_template: "{{ as_timestamp(states.sensor.ring_front_door_last_motion.attributes.created_at) |  timestamp_custom('%d %b %-I:%M %P') }}"
+      racingpc:
+        value_template: '{% if is_state("device_tracker.desktopci356oq_2", "home") %}Online{% else %}Offline{% endif %}'
+        friendly_name: 'Racing PC'
+      back_door:
+        friendly_name: 'Back Door'
+        value_template: "{{ 'Open' if is_state('binary_sensor.neo_coolcam_doorwindow_detector_sensor', 'on') else 'Closed' }}"
+      front_door:
+        friendly_name: 'Front Door'
+        value_template: "{{ 'Open' if is_state('binary_sensor.neo_coolcam_doorwindow_detector_sensor_2', 'on') else 'Closed' }}"
+      front_door_battery:
+        friendly_name: 'Front Door Battery'
+        value_template: '{{ states.zwave.neo_coolcam_doorwindow_detector_2.attributes.battery_level }}'
+        unit_of_measurement: '%'
+      back_door_battery:
+        friendly_name: 'Back Door Battery'
+        value_template: '{{ states.zwave.neo_coolcam_doorwindow_detector.attributes.battery_level }}'
+        unit_of_measurement: '%'
+      garage_door:
+        friendly_name: 'Garage Door'
+        value_template: "{{ 'Open' if is_state('binary_sensor.aeotec_zw120_door_window_sensor_gen5_sensor', 'on') else 'Closed' }}"
+      garage_door_battery:
+        friendly_name: 'Garage Door Battery'
+        value_template: '{{ states.zwave.aeotec_zw120_door_window_sensor_gen5.attributes.battery_level }}'
+        unit_of_measurement: '%'
+      office_flood_battery:
+        friendly_name: 'Office Flood Battery'
+        value_template: '{{ states.zwave.neo_coolcam_water_leakage_detector.attributes.battery_level }}'
+        unit_of_measurement: '%'

@@ -1,0 +1,12 @@
+  misc:
+    view: yes
+    name: Misc
+    entities:
+      - group.breaches
+  breaches:
+    name: "Email Breaches"
+    entities:
+      - sensor.breaches_alexgreenlandbtinternetcom
+      - sensor.breaches_alexgreenlandgmailcom
+      - sensor.breaches_g7jgqhotmailcom
+      - sensor.breaches_agreenlandcromwellscouk

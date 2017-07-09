@@ -1,0 +1,14 @@
+  default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+      - group.home
+      - group.kitchen
+      - group.office
+      - group.lounge
+      - group.bedroom
+      - group.hall
+      - group.outside
+      - group.garage
+      - group.weather
+      - group.chester

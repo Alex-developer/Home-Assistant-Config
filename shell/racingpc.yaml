@@ -1,0 +1,4 @@
+  shutdown_racingpc: !secret shutdown_racingpc
+  restart_racingpc: !secret restart_racingpc
+  sleep_racingpc: !secret sleep_racingpc
+  hibernate_racingpc: !secret hibernate_racingpc

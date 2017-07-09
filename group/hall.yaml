@@ -1,0 +1,16 @@
+  hall:
+    name: Hall
+    view: yes
+    entities:
+      - group.halllights
+      - group.hall_doors
+  halllights:
+    name: "Lights"
+    entities:
+      - light.hall_1
+      - light.hall_2
+  hall_doors:
+    name: "Doors"
+    entities:
+      - sensor.garage_door
+      - sensor.front_door

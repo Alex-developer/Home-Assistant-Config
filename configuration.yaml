@@ -1,0 +1,44 @@
+homeassistant:
+  name: !secret ha_name
+  latitude: !secret ha_lat
+  longitude: !secret ha_lon
+  elevation: !secret ha_el
+  unit_system: metric
+  time_zone: Europe/London
+  customize: !include_dir_merge_named customize
+  customize_glob: !include_dir_merge_named ui
+
+frontend:
+config:
+updater:
+discovery: !include discovery/discovery.yaml
+conversation:
+history:
+logbook: !include logbook/logbook.yaml
+sun:
+ios:
+upnp:
+  port_mapping: false
+
+ffmpeg: !include platform/ffmpeg.yaml
+recorder: !include recorder/recorder.yaml
+http: !include platform/http.yaml
+netatmo: !include platform/netatmo.yaml
+ring: !include platform/ring.yaml
+tts: !include platform/tts.yaml
+binary_sensor: !include_dir_merge_list binary_sensor
+sensor: !include_dir_merge_list sensor
+media_player: !include_dir_merge_list mediaplayer
+device_tracker: !include_dir_merge_list device_tracker
+camera: !include_dir_merge_list camera
+light: !include_dir_merge_list light
+automation: !include_dir_merge_list automation
+notify: !include_dir_merge_list notify
+switch: !include_dir_merge_list switch
+group: !include_dir_merge_named group
+zwave: !include platform/zwave.yaml
+input_select: !include_dir_merge_named input
+shell_command: !include_dir_merge_named shell
+panel_custom: !include_dir_merge_list panel_custom
+panel_iframe: !include_dir_merge_list panel_iframe
+scene: !include_dir_merge_list scenes

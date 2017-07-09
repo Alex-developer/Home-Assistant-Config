@@ -1,0 +1,3 @@
+  - platform: apple_tv
+    host: !secret lounge_ip
+    login_id: !secret lounge_id

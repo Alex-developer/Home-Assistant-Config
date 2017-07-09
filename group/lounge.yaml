@@ -1,0 +1,35 @@
+  lounge:
+    name: Lounge
+    view: yes
+    entities:
+      - group.loungeswitches
+      - group.loungedoors
+      - light.lounge
+      - group.loungeenv
+      - group.loungemotion
+      - media_player.lounge
+      - media_player.apple_tv
+      - media_player.ue55js8000_ue55js8000
+      - camera.lounge
+  loungeswitches:
+    name: "Switches"
+    entities:
+      - switch.becs
+      - switch.alex
+  loungedoors:
+    name: "Doors"
+    entities:
+      - sensor.back_door
+  loungeenv:
+    name: "Environment"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_luminance
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet
+      - sensor.netatmo_indoor_temperature
+      - sensor.netatmo_indoor_humidity
+      - sensor.netatmo_indoor_co2
+      - sensor.netatmo_indoor_noise
+  loungemotion:
+    name: "Motion"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_burglar

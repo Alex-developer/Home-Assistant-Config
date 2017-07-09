@@ -1,0 +1,36 @@
+{
+  "name": "home-assistant-custom-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "html-minifier": "^3.4.4",
+    "vulcanize": "^1.15.4"
+  },
+  "scripts": {
+    "test": "eslint src/*.html",
+    "clean": "rm -f build/*",
+    "vulcanize": "vulcanize src/state-card-custom-ui.html --out-html build/state-card-custom-ui.vulcanize.html",
+    "strip": "cat build/state-card-custom-ui.vulcanize.html | sed -e 's#</script></div></body></html>#</script>#' | sed -e 's#<html>.*##' > build/state-card-custom-ui.strip.html",
+    "minify": "html-minifier -o state-card-custom-ui.html --minify-js true --minify-css true --remove-tag-whitespace --collapse-whitespace build/state-card-custom-ui.strip.html",
+    "gzip": "gzip state-card-custom-ui.html -9fk",
+    "build": "npm run clean && npm run vulcanize && npm run strip && npm run minify && npm run gzip",
+    "deploy": "npm run build && cp state-card-custom-ui.html* ~/.homeassistant/www/custom_ui/",
+    "deploy_dev": "npm run test && rm -f ~/.homeassistant/www/custom_ui/*.gz && cp src/*.html ~/.homeassistant/www/custom_ui/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrey-git/home-assistant-custom-ui.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrey-git/home-assistant-custom-ui/issues"
+  },
+  "homepage": "https://github.com/andrey-git/home-assistant-custom-ui#readme"
+}

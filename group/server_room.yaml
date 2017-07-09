@@ -1,0 +1,54 @@
+  server_room:
+    view: yes
+    name: "Server Room"
+    entities:
+      - group.server_room_switches
+      - group.server_room_pi
+      - group.server_room_speedtest
+      - group.server_room_batteries
+      - group.server_room_wifi_status
+      - group.server_room_igd
+  server_room_pi:
+    name: "Server"
+    entities:
+      - sensor.cpu_speed
+      - sensor.disk_use_
+      - sensor.ram_free
+      - sensor.average_load_1m
+      - sensor.average_load_5m
+      - sensor.average_load_15m
+      - sensor.since_last_boot
+      - sensor.last_boot
+  server_room_speedtest:
+    name: "Speed Test"
+    entities:
+      - sensor.speedtest_download
+      - sensor.speedtest_upload
+      - sensor.speedtest_ping
+  server_room_batteries:
+    name: "Batteries"
+    entities:
+      - sensor.back_door_battery
+      - sensor.front_door_battery
+      - sensor.garage_door_battery
+      - sensor.ring_front_door_battery
+      - sensor.netatmo_rain_battery
+      - sensor.netatmo_wind_battery
+      - sensor.office_flood_battery
+  server_room_wifi_status:
+    name: "WiFi Status"
+    entities:
+      - sensor.netatmo_indoor_wifi
+      - sensor.netatmo_rain_radio
+      - sensor.netatmo_wind_radio
+  server_room_igd:
+    name: "Router"
+    entities:
+      - sensor.igd_packets_received
+      - sensor.igd_packets_sent
+      - sensor.igd_received_bytes
+      - sensor.igd_sent_bytes
+  server_room_switches:
+    name: "Switches"
+    entities:
+      - switch.pi_server

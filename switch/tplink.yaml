@@ -1,0 +1,27 @@
+  # Alex's plug
+  - platform: tplink
+    host: 192.168.1.7
+
+  # Rebecca's Plug
+  - platform: tplink
+    host: 192.168.1.5
+
+  # Office Desk
+  - platform: tplink
+    host: 192.168.1.4
+
+  # Racing PC
+  - platform: tplink
+    host: 192.168.1.9
+
+  # Office Fan
+  - platform: tplink
+    host: 192.168.1.42
+
+  # Chargers
+  - platform: tplink
+    host: 192.168.1.49
+
+  # Pi Server
+  - platform: tplink
+    host: 192.168.1.52

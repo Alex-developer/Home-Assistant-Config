@@ -1,0 +1,76 @@
+      name: Home Floorplan
+      image: /local/custom_ui/floorplan/floorplan.svg
+      stylesheet: /local/custom_ui/floorplan/floorplan.css
+      pan_zoom:
+      groups:
+        - name: Lights
+          entities:
+             - light.kitchen_1
+             - light.kitchen_2
+             - light.kitchen_3
+             - light.office
+             - light.lounge
+             - light.bedroom
+             - light.hall_1
+             - light.hall_2
+          states:
+            - state: 'on'
+              class: 'light-on'
+            - state: 'off'
+              class: 'light-off'
+
+        - name: Strip Lights
+          entities:
+             - light.kitchen_bottom
+             - light.kitchen_lightstrip
+          states:
+            - state: 'on'
+              class: 'strip-light-on'
+            - state: 'off'
+              class: 'strip-light-off'
+
+        - name: Cameras
+          entities:
+            - camera.lounge
+            - camera.kitchen
+            - camera.office
+          states:
+            - state: 'idle'
+              class: 'camera-idle'
+
+        - name: Switches
+          entities:
+            - switch.becs
+            - switch.alex
+            - switch.pi_server
+            - switch.racing
+            - switch.office_desk
+            - switch.chargers
+          states:
+            - state: 'on'
+              class: 'switch-on'
+            - state: 'off'
+              class: 'switch-off'
+          action:
+            service: toggle
+
+        - name: Motion
+          entities:
+            - sensor.aeotec_zw100_multisensor_6_burglar
+            - sensor.aeotec_zw100_multisensor_6_burglar_2
+          states:
+            - state: '0'
+              class: 'motion-none'
+            - state: '3'
+              class: 'motion-tamper'
+            - state: '8'
+              class: 'motion-motion'
+
+        - name: Media Players
+          entities:
+            - media_player.office
+
+        - name: Netatmo Env
+          entities:
+            - sensor.netatmo_indoor_temperature
+            - sensor.netatmo_indoor_humidity

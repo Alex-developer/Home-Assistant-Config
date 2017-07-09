@@ -1,0 +1,11 @@
+  - platform: mjpeg
+    mjpeg_url: !secret camera_kitchen_url
+    still_image_url: !secret camera_kitchen_still
+    username: !secret camera_kitchen_user
+    password: !secret camera_kitchen_password
+    authentication: digest
+    name: 'Kitchen'
+
+#  - platform: ffmpeg
+#    input: !secret camera_kitchen_url_rtsp
+#    name: 'Kitchen'

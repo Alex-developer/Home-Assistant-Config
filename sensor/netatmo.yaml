@@ -1,0 +1,25 @@
+  - platform: netatmo
+    station: Home
+    modules:
+      Indoor:
+        - temperature
+        - co2
+        - noise
+        - humidity
+        - wifi_status
+      Outdoor:
+        - temperature
+        - humidity
+      Rain:
+        - rain
+        - sum_rain_1
+        - sum_rain_24
+        - rf_status
+        - battery_vp
+      Wind:
+        - windangle
+        - windstrength
+        - gustangle
+        - guststrength
+        - rf_status
+        - battery_vp

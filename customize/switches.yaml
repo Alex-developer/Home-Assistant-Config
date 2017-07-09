@@ -1,0 +1,7 @@
+switch.racing:
+  friendly_name: Racing PC
+  icon: mdi:desktop-tower
+
+switch.office_fan:
+  friendly_name: Office Air Con
+  icon: mdi:air-conditioner

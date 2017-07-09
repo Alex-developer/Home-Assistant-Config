@@ -1,0 +1,11 @@
+  - platform: mjpeg
+    mjpeg_url: !secret camera_lounge_url
+    still_image_url: !secret camera_lounge_still
+    username: !secret camera_lounge_user
+    password: !secret camera_lounge_password
+    authentication: digest
+    name: 'Lounge'
+
+#  - platform: ffmpeg
+#    input: !secret camera_lounge_url_rtsp
+#    name: 'Lounge'

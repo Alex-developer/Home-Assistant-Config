@@ -1,0 +1,57 @@
+  weather:
+    view: yes
+    name: Weather
+    entities:
+      - group.forecast
+      - group.homenetatmo
+      - group.homenetatmostatus
+      - group.space
+      - camera.eu_weather
+  space:
+    name: Space
+    entities:
+      - sensor.aurora
+      - sensor.aurora_level
+      - sensor.iss_people_onboard
+      - sensor.iss_rise
+      - sensor.iss_lat
+      - sensor.iss_lon
+      - camera.iss
+  forecast:
+    name: Forecast
+    entities:
+      - sensor.dark_sky_hourly_summary
+      - sensor.dark_sky_daily_summary
+      - sensor.dark_sky_summary
+      - sensor.dark_sky_nearest_storm_distance
+      - sensor.dark_sky_nearest_storm_bearing
+      - sensor.dark_sky_precip_probability
+      - sensor.dark_sky_precip_type
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_wind_speed
+      - sensor.dark_sky_wind_bearing
+      - sensor.dark_sky_apparent_temperature
+      - sensor.dark_sky_humidity
+      - sensor.dark_sky_pressure
+      - sensor.dark_sky_dew_point
+  homenetatmo:
+    name: "Weather"
+    entities:
+      - sensor.moon
+      - sensor.netatmo_indoor_temperature
+      - sensor.netatmo_indoor_humidity
+      - sensor.netatmo_indoor_co2
+      - sensor.netatmo_indoor_noise
+      - sensor.netatmo_outdoor_temperature
+      - sensor.netatmo_outdoor_humidity
+      - sensor.netatmo_rain_rain
+      - sensor.netatmo_wind_strength
+      - sensor.netatmo_wind_angle
+  homenetatmostatus:
+    name: "Status"
+    entities:
+      - sensor.netatmo_indoor_wifi
+      - sensor.netatmo_rain_radio
+      - sensor.netatmo_rain_battery
+      - sensor.netatmo_wind_radio
+      - sensor.netatmo_wind_battery

@@ -1,0 +1,5 @@
+  bedroom:
+    name: Bedroom
+    view: yes
+    entities:
+      - light.bedroom

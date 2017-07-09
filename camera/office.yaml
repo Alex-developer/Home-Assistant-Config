@@ -1,0 +1,3 @@
+  - platform: mjpeg
+    mjpeg_url: !secret camera_office_url
+    name: 'Office'

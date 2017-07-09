@@ -1,0 +1,8 @@
+  purge_days: 5
+  exclude:
+    domains:
+      - automation
+      - weblink
+      - updater
+    entities:
+      - sun.sun

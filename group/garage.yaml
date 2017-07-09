@@ -1,0 +1,10 @@
+  garage:
+    view: yes
+    name: Garage
+    entities:
+      - group.garageswitches
+  garageswitches:
+    name: "Garage"
+    entities:
+      - switch.chargers
+      - switch.washing

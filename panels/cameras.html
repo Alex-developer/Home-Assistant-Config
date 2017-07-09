@@ -1,0 +1,46 @@
+<dom-module id='ha-panel-cameras'>
+  <template>
+    <style>
+      p {
+        font-weight: bold;
+      }
+    </style>
+    <p>Hello {{who}}. Greetings from Home Assistant.</p>
+    <img class="camera-image" alt="Kitchen" src="/api/camera_proxy_stream/camera.kitchen?token=982a6006df22db4c1bb22dffb83a1f0277aa08589a12c29056daf9d7d2689f42">
+  </template>
+</dom-module>
+
+<script>
+Polymer({
+  is: 'ha-panel-cameras',
+  properties: {
+    // Home Assistant object
+    hass: {
+      type: Object,
+    },
+    // If should render in narrow mode
+    narrow: {
+      type: Boolean,
+      value: false,
+    },
+    // If sidebar is currently shown
+    showMenu: {
+      type: Boolean,
+      value: false,
+    },
+    // Home Assistant panel info
+    // panel.config contains config passed to register_panel serverside
+    panel: {
+      type: Object,
+    },
+    who: {
+      type: String,
+      computed: 'computeWho(panel, hass)',
+    }
+  },
+
+  computeWho: function (panel, hass) {
+    return panel && panel.config && panel.config.who ? panel.config.who : 'World';
+  },
+});
+</script>

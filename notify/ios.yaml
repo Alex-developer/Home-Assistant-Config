@@ -1,0 +1,3 @@
+  - name: alex_notify
+    platform: ios
+    target: '50086f24-58a6-3407-8294-78dfb52faa5c'

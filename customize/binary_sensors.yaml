@@ -1,0 +1,17 @@
+binary_sensor.neo_coolcam_doorwindow_detector_sensor:
+  friendly_name: 'Back Door'
+  emulated_hue: False
+  hidden: True
+  icon: mdi:glassdoor
+
+binary_sensor.aeotec_zw120_door_window_sensor_gen5_sensor:
+  friendly_name: 'Garage Door'
+  emulated_hue: False
+  hidden: True
+  icon: mdi:home-variant
+
+binary_sensor.neo_coolcam_doorwindow_detector_sensor_2:
+  friendly_name: 'Front Door'
+  emulated_hue: False
+  hidden: True
+  icon: mdi:home-variant
