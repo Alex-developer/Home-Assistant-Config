@@ -1,0 +1,4 @@
+  - platform: samsungtv
+    host: !secret lounge_tv_ip
+    mac: !secret lounge_tv_mac
+    name: Lounge TV

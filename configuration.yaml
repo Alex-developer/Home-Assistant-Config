@@ -11,14 +11,13 @@ homeassistant:
 frontend:
 config:
 updater:
-discovery: !include discovery/discovery.yaml
 conversation:
 history:
-logbook: !include logbook/logbook.yaml
 sun:
 ios:
-upnp:
-  port_mapping: false
+upnp: !include platform/upnp.yaml
+logbook: !include logbook/logbook.yaml
+discovery: !include discovery/discovery.yaml
 
 ffmpeg: !include platform/ffmpeg.yaml
 recorder: !include recorder/recorder.yaml
@@ -42,3 +41,4 @@ shell_command: !include_dir_merge_named shell
 panel_custom: !include_dir_merge_list panel_custom
 panel_iframe: !include_dir_merge_list panel_iframe
 scene: !include_dir_merge_list scenes
+logger: !include logger/logger.yaml

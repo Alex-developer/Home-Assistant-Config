@@ -9,7 +9,7 @@
       - group.loungemotion
       - media_player.lounge
       - media_player.apple_tv
-      - media_player.ue55js8000_ue55js8000
+      - media_player.lounge_tv
       - camera.lounge
   loungeswitches:
     name: "Switches"

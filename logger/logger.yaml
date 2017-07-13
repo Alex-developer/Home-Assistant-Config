@@ -1,0 +1,4 @@
+  default: critical
+  logs:
+    homeassistant.components.camera: critical
+    homeassistant.components.switch: critical
