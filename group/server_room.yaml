@@ -35,6 +35,9 @@
       - sensor.netatmo_rain_battery
       - sensor.netatmo_wind_battery
       - sensor.office_flood_battery
+      - sensor.lounge_motion_battery
+      - sensor.kitchen_motion_battery
+      - sensor.hall_motion_battery
   server_room_wifi_status:
     name: "WiFi Status"
     entities:

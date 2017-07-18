@@ -1,0 +1,16 @@
+  - platform: london_underground
+    line:
+      - Bakerloo
+      - Central
+      - Circle
+      - District
+      - DLR
+      - Hammersmith & City
+      - Jubilee
+      - London Overground
+      - Metropolitan
+      - Northern
+      - Piccadilly
+      - TfL Rail
+      - Victoria
+      - Waterloo & City

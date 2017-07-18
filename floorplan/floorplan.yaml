@@ -58,6 +58,7 @@
           entities:
             - sensor.aeotec_zw100_multisensor_6_burglar
             - sensor.aeotec_zw100_multisensor_6_burglar_2
+            - sensor.aeotec_zw100_multisensor_6_burglar_3
           states:
             - state: '0'
               class: 'motion-none'

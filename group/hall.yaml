@@ -4,6 +4,7 @@
     entities:
       - group.halllights
       - group.hall_doors
+      - group.hallmotion
   halllights:
     name: "Lights"
     entities:
@@ -14,3 +15,7 @@
     entities:
       - sensor.garage_door
       - sensor.front_door
+  hallmotion:
+    name: "Motion"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_burglar_3

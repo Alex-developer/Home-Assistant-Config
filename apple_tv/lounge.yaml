@@ -1,0 +1,4 @@
+  - name: Lounge Apple TV
+    host: !secret lounge_ip
+    login_id: !secret lounge_id
+    start_off: true
