@@ -39,7 +39,7 @@ zwave: !include platform/zwave.yaml
 input_select: !include_dir_merge_named input
 shell_command: !include_dir_merge_named shell
 panel_custom: !include_dir_merge_list panel_custom
-panel_iframe: !include_dir_merge_list panel_iframe
+panel_iframe: !include_dir_merge_named panel_iframe
 scene: !include_dir_merge_list scenes
 logger: !include logger/logger.yaml
 apple_tv: !include apple_tv/lounge.yaml
