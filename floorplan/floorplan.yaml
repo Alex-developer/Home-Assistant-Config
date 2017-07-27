@@ -75,3 +75,18 @@
           entities:
             - sensor.netatmo_indoor_temperature
             - sensor.netatmo_indoor_humidity
+
+        - name: Outdoor Temp
+          entities:
+             - sensor.netatmo_outdoor_temperature
+          text_template: '${entity.state ? entity.state : "unknown"}'
+
+        - name: Outdoor Humidity
+          entities:
+             - sensor.netatmo_outdoor_humidity
+          text_template: '${entity.state ? entity.state : "unknown"}'
+
+        - name: Outdoor Rainfall
+          entities:
+             - sensor.netatmo_rain_rain
+          text_template: '${entity.state ? entity.state : "unknown"}'

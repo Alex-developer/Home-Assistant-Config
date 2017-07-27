@@ -40,9 +40,9 @@
      inkscape:window-height="1955"
      id="namedview1007"
      showgrid="false"
-     inkscape:zoom="2.7748218"
-     inkscape:cx="770.07482"
-     inkscape:cy="995.49135"
+     inkscape:zoom="1.9620953"
+     inkscape:cx="1574.7181"
+     inkscape:cy="2610.0094"
      inkscape:window-x="-13"
      inkscape:window-y="-13"
      inkscape:window-maximized="1"
@@ -610,16 +610,6 @@
        xlink:href="#linearGradient3621"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.4948651,-4.605446e-7,2.734165e-7,0.88747275,810.92898,103.69084)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3613"
-       id="linearGradient6749"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.82894732,0,0,0.82894732,1018.9169,106.18785)"
-       x1="317.14285"
-       y1="248.07646"
-       x2="317.14285"
-       y2="361.49347" />
   </defs>
   <g
      id="surface3"
@@ -2366,92 +2356,6 @@
            sodipodi:role="line">Humd.</tspan></text>
     </g>
     <g
-       id="g6685">
-      <rect
-         width="313.37686"
-         height="88.388367"
-         rx="21.590908"
-         ry="24.561615"
-         x="1272.1339"
-         y="176.81444"
-         id="rect3674"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3716-0);fill-opacity:1;fill-rule:nonzero;stroke:#fbe2a6;stroke-width:2.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
-      <path
-         d="m 1344.4605,220.19968 c 0,37.27922 -30.2208,67.5 -67.5,67.5 -37.2792,0 -67.5,-30.22078 -67.5,-67.5 0,-37.27922 30.2208,-67.49999 67.5,-67.49999 37.2792,0 67.5,30.22077 67.5,67.49999 z"
-         id="path2816"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3716);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22500001;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 1344.4605,220.19969 c -5.921,-2.98392 -37.5729,-25.62337 -65.7237,-1.18421 -40.2397,34.93421 -69.2763,38.46345 -69.2763,1.18421 0,-37.27921 30.2208,-67.49997 67.5,-67.49997 37.2792,0 67.5,30.22076 67.5,67.49997 z"
-         id="path2816-2"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:url(#linearGradient3619);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22500001;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 1344.4605,220.19969 c 0,37.27921 -30.2208,67.5 -67.5,67.5 -37.2792,0 -67.5,-30.22079 -67.5,-67.5 0,-37.27924 30.2208,-67.5 67.5,-67.5 37.2792,0 67.5,30.22076 67.5,67.5 z"
-         id="path2816-0"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.97826089;fill:none;stroke:#fbe2a6;stroke-width:2.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text6100"
-         y="229.88795"
-         x="1356.3879"
-         style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.98431373;stroke:none;stroke-width:0.75"
-         xml:space="preserve"><tspan
-           style="fill:#ffffff;fill-opacity:0.98431373;stroke-width:0.75"
-           y="229.88795"
-           x="1356.3879"
-           id="tspan6098"
-           sodipodi:role="line">Racing On</tspan></text>
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke-width:3.53385925"
-         id="path6102"
-         d="m 1294.7283,203.67724 a 17.804956,17.534668 0 0 1 17.8049,17.53467 17.804956,17.534668 0 0 1 -17.8049,17.53467 17.804956,17.534668 0 0 1 -17.805,-17.53467 17.804956,17.534668 0 0 1 17.805,-17.53467 m -46.2929,24.54854 a 7.1219825,7.0138675 0 0 1 -7.122,-7.01387 7.1219825,7.0138675 0 0 1 7.122,-7.01387 h 21.3659 v 14.02774 z"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g6765">
-      <rect
-         width="313.37686"
-         height="88.388367"
-         rx="21.590908"
-         ry="24.561615"
-         x="1276.985"
-         y="335.94492"
-         id="rect3674-7"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3716-0-6);fill-opacity:1;fill-rule:nonzero;stroke:#fbe2a6;stroke-width:2.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
-      <path
-         d="m 1349.3116,379.33016 c 0,37.27922 -30.2208,67.5 -67.5,67.5 -37.2792,0 -67.5,-30.22078 -67.5,-67.5 0,-37.27922 30.2208,-67.49999 67.5,-67.49999 37.2792,0 67.5,30.22077 67.5,67.49999 z"
-         id="path2816-5"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3716-9);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22500001;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 1349.3116,379.33017 c -5.921,-2.98392 -37.5729,-25.62337 -65.7237,-1.18421 -40.2397,34.93421 -69.2763,38.46345 -69.2763,1.18421 0,-37.27921 30.2208,-67.49997 67.5,-67.49997 37.2792,0 67.5,30.22076 67.5,67.49997 z"
-         id="path2816-2-6"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:url(#linearGradient6749);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22500001;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 1349.3116,379.33017 c 0,37.27921 -30.2208,67.5 -67.5,67.5 -37.2792,0 -67.5,-30.22079 -67.5,-67.5 0,-37.27924 30.2208,-67.5 67.5,-67.5 37.2792,0 67.5,30.22076 67.5,67.5 z"
-         id="path2816-0-2"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.97826089;fill:none;stroke:#fbe2a6;stroke-width:2.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text6100-1"
-         y="389.01843"
-         x="1361.239"
-         style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.98431373;stroke:none;stroke-width:0.75"
-         xml:space="preserve"><tspan
-           style="fill:#ffffff;fill-opacity:0.98431373;stroke-width:0.75"
-           y="389.01843"
-           x="1361.239"
-           id="tspan6098-8"
-           sodipodi:role="line">Racing Off</tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:1;stroke-width:3.53385925;stroke:#ffffff;stroke-opacity:1"
-         id="path6102-2"
-         d="m 1299.5794,362.80772 a 17.804956,17.534668 0 0 1 17.8049,17.53467 17.804956,17.534668 0 0 1 -17.8049,17.53467 17.804956,17.534668 0 0 1 -17.805,-17.53467 17.804956,17.534668 0 0 1 17.805,-17.53467 m -46.2929,24.54854 a 7.1219825,7.0138675 0 0 1 -7.122,-7.01387 7.1219825,7.0138675 0 0 1 7.122,-7.01387 h 21.3659 v 14.02774 z"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
        transform="rotate(88.054081,1071.1517,1215.5708)"
        id="sensor.aeotec_zw100_multisensor_6_burglar_3">
       <g
@@ -2478,5 +2382,74 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="1222.8657"
+       y="35.524326"
+       id="text4923"><tspan
+         sodipodi:role="line"
+         id="tspan4921"
+         x="1222.8657"
+         y="35.524326"
+         style="stroke-width:0.75">Temperature:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="1441.97"
+       y="35.436726"
+       id="sensor.netatmo_outdoor_temperature"
+       inkscape:label="#text4923-8"><tspan
+         sodipodi:role="line"
+         id="tspan4921-7"
+         x="1441.97"
+         y="35.436726"
+         style="stroke-width:0.75">Temperat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="1278.5585"
+       y="69.51265"
+       id="text4923-2"><tspan
+         sodipodi:role="line"
+         id="tspan4921-4"
+         x="1278.5585"
+         y="69.51265"
+         style="stroke-width:0.75">Humidity:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="1442.1627"
+       y="69.425049"
+       id="sensor.netatmo_outdoor_humidity"
+       inkscape:label="#text4923-8"><tspan
+         sodipodi:role="line"
+         id="tspan4921-7-9"
+         x="1442.1627"
+         y="69.425049"
+         style="stroke-width:0.75">Humidity</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="1303.6318"
+       y="101.12112"
+       id="text4923-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan4921-4-7"
+         x="1303.6318"
+         y="101.12112"
+         style="stroke-width:0.75">Rainfall:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+       x="1441.736"
+       y="101.03354"
+       id="sensor.netatmo_rain_rain"
+       inkscape:label="#text4923-8"><tspan
+         sodipodi:role="line"
+         id="tspan4921-7-9-1"
+         x="1441.736"
+         y="101.03354"
+         style="stroke-width:0.75">Rainfall</tspan></text>
   </g>
 </svg>
