@@ -40,6 +40,7 @@ My configuration files for Home Assistant
 + [Amazon Dot](https://www.amazon.co.uk/Amazon-Echo-Dot-Generation-Black/dp/B01DFKBL68/)
 + [Google Home](https://madeby.google.com/home/)
 + [Broadlink RM Mini 3](https://www.amazon.co.uk/gp/product/B01HPWMWCY/)
++ [Broadlink RM Pro](https://www.amazon.co.uk/d/Home-Audio-Video-Accessories/Broadlink-Automation-Learning-Universal-Control-Compatible-Smartphones/B01H6Y55QQ/)
 + [IPS Touch Screen](https://www.amazon.co.uk/gp/product/B073XDVX7R/)
 
 ## Software/Plugins Used ##
@@ -48,5 +49,6 @@ My configuration files for Home Assistant
 + [Home Assistant FloorPlan](https://github.com/pkozul/ha-floorplan)
 + [Lets Encrypt](https://home-assistant.io/docs/ecosystem/certificates/lets_encrypt/)
 + [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
++ [Mosquitto](https://mosquitto.org/)
 + [MagicPlan](http://www.magic-plan.com/magicplan/)
 + [InkScape](https://inkscape.org/en/)
