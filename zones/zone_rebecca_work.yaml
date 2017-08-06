@@ -1,0 +1,5 @@
+  name: Rebecca Work
+  latitude: !secret zone_rebecca_work_lat
+  longitude: !secret zone_rebecca_work_lon
+  radius: 250
+  icon: mdi:worker

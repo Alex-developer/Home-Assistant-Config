@@ -1,3 +1,7 @@
+group.all_switches:
+  friendly_name: All Switches
+  hidden: false
+
 switch.racing:
   friendly_name: Racing PC
   icon: mdi:desktop-tower

@@ -1,0 +1,7 @@
+  - platform: uk_transport
+    app_id: !secret uk_transport_app_id
+    app_key: !secret uk_transport_app_key
+    queries:
+      - mode: train
+        origin: ELY
+        destination: KGX

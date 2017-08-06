@@ -8,6 +8,7 @@
       - group.officemotion
       - group.officeenv
       - group.officecooling
+      - group.officeprinter
       - camera.office
       - media_player.office
       - media_player.spotify
@@ -42,3 +43,10 @@
       - sensor.office_lux
       - sensor.office_temperature
       - sensor.neo_coolcam_water_leakage_detector_flood
+  officeprinter:
+    name: "Epson Printer"
+    entities:
+      - sensor.epson_ink_level_cyan
+      - sensor.epson_ink_level_magenta
+      - sensor.epson_ink_level_yellow
+      - sensor.epson_ink_level_black

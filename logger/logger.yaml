@@ -1,4 +1,3 @@
-  default: critical
+  default: warning
   logs:
-    homeassistant.components.camera: critical
-    homeassistant.components.switch: critical
+    homeassistant.components.mqtt: debug

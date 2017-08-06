@@ -4,9 +4,9 @@
       - sensor.ring_last_ding
       - sensor.ring_front_door_battery
       - sensor.ring_last_motion
-      - group.all_lights
       - camera.office
       - camera.kitchen
       - camera.lounge
       - device_tracker.alexiphone
+      - device_tracker.pi_alex_iphone
       - device_tracker.becsiphone

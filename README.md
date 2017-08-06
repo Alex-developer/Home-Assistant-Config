@@ -39,6 +39,8 @@ My configuration files for Home Assistant
 + [Amazon Echo](https://www.amazon.co.uk/Amazon-SK705DI-Echo-Black/dp/B01GAGVIE4)
 + [Amazon Dot](https://www.amazon.co.uk/Amazon-Echo-Dot-Generation-Black/dp/B01DFKBL68/)
 + [Google Home](https://madeby.google.com/home/)
++ [Broadlink RM Mini 3](https://www.amazon.co.uk/gp/product/B01HPWMWCY/)
++ [IPS Touch Screen](https://www.amazon.co.uk/gp/product/B073XDVX7R/)
 
 ## Software/Plugins Used ##
 

@@ -18,6 +18,8 @@ ios:
 upnp: !include platform/upnp.yaml
 logbook: !include logbook/logbook.yaml
 discovery: !include discovery/discovery.yaml
+zeroconf:
+shopping_list:
 
 ffmpeg: !include platform/ffmpeg.yaml
 recorder: !include recorder/recorder.yaml
@@ -43,3 +45,6 @@ panel_iframe: !include_dir_merge_named panel_iframe
 scene: !include_dir_merge_list scenes
 logger: !include logger/logger.yaml
 apple_tv: !include apple_tv/lounge.yaml
+mqtt: !include mqtt/mqtt.yaml
+zone:  !include zones/zone_alex_work.yaml
+zone 2:  !include zones/zone_rebecca_work.yaml

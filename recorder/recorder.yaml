@@ -4,5 +4,7 @@
       - automation
       - weblink
       - updater
+      - camera
+      - media_player
     entities:
       - sun.sun

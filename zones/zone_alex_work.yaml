@@ -1,0 +1,5 @@
+  name: Alex Work
+  latitude: !secret zone_alex_work_lat
+  longitude: !secret zone_alex_work_lon
+  radius: 250
+  icon: mdi:worker

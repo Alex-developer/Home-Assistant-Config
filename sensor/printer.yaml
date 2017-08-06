@@ -1,0 +1,23 @@
+  - platform: command_line
+    name: Epson Ink Level Black
+    command: !secret epson_et2550_black
+    unit_of_measurement: '%'
+    scan_interval: 60
+
+  - platform: command_line
+    name: Epson Ink Level Magenta
+    command: !secret epson_et2550_magenta
+    unit_of_measurement: '%'
+    scan_interval: 60
+
+  - platform: command_line
+    name: Epson Ink Level Yellow
+    command: !secret epson_et2550_yellow
+    unit_of_measurement: '%'
+    scan_interval: 60
+
+  - platform: command_line
+    name: Epson Ink Level Cyan
+    command: !secret epson_et2550_cyan
+    unit_of_measurement: '%'
+    scan_interval: 60

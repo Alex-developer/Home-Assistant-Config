@@ -3,6 +3,8 @@
     name: Misc
     entities:
       - group.breaches
+      - group.travel
+      - group.london_train
   breaches:
     name: "Email Breaches"
     entities:
@@ -10,3 +12,27 @@
       - sensor.breaches_alexgreenlandgmailcom
       - sensor.breaches_g7jgqhotmailcom
       - sensor.breaches_agreenlandcromwellscouk
+  travel:
+    name: "Travel"
+    entities:
+      - sensor.london_overground
+      - sensor.bakerloo
+      - sensor.central
+      - sensor.circle
+      - sensor.district
+      - sensor.dlr
+      - sensor.hammersmith__city
+      - sensor.jubilee
+      - sensor.metropolitan
+      - sensor.northern
+      - sensor.piccadilly
+      - sensor.tfl_rail
+      - sensor.victoria
+      - sensor.waterloo__city
+  london_train:
+    name: "Next London Train"
+    entities:
+      - sensor.next_train_status
+      - sensor.next_trains_scheduled
+      - sensor.next_trains_estimated
+      - sensor.next_trains_platform
