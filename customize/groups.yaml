@@ -1,0 +1,6 @@
+group.officeswitches:
+  order: 1
+group.officelights:
+  order: 2
+group.racingpc:
+  order: 3

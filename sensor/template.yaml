@@ -91,7 +91,7 @@
         friendly_name: Last Motion Time
         value_template: "{{ as_timestamp(states.sensor.ring_front_door_last_motion.attributes.created_at) |  timestamp_custom('%d %b %-I:%M %P') }}"
       racingpc:
-        value_template: '{% if is_state("device_tracker.desktopci356oq_2", "home") %}Online{% else %}Offline{% endif %}'
+        value_template: '{% if is_state("device_tracker.desktopci356oq", "home") %}Online{% else %}Offline{% endif %}'
         friendly_name: 'Racing PC'
       back_door:
         friendly_name: 'Back Door'

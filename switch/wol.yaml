@@ -1,4 +1,4 @@
   - platform: wake_on_lan
     mac_address: !secret racingpc_mac
     name: "Racing PC WoL"
-    host: !secret racingpc_ip
+    host: !secret racingpc_wol_ipaddress

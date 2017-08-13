@@ -1,0 +1,14 @@
+  frontg:
+    name: "Front Garden"
+    view: yes
+    entities:
+      - group.frontcameraswitch
+      - group.frontcamera
+  frontcameraswitch:
+    name: "Switches"
+    entities:
+      - switch.front_camera
+  frontcamera:
+    name: "Front Camera"
+    entities:
+      - camera.front_garden

@@ -5,6 +5,8 @@
         brightness: 100
       switch.racing:
         state: on
+      switch.racing_pc_wol:
+        state: on
       switch.office_fan:
         state: on
 
