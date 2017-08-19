@@ -1,0 +1,19 @@
+  - platform: template
+    switches:
+      fpspctemplate:
+        value_template: "{{ is_state('device_tracker.alexfps_2', 'home') }}"
+        turn_on:
+          service: script.turn_on
+          entity_id: script.start_racing
+        turn_off:
+          service: script.turn_on
+          entity_id: script.stop_racing
+
+      racingpctemplate:
+        value_template: "{{ is_state('device_tracker.desktopci356oq', 'home') }}"
+        turn_on:
+          service: script.turn_on
+          entity_id: script.start_racing
+        turn_off:
+          service: script.turn_on
+          entity_id: script.stop_racing

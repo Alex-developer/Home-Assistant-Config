@@ -5,9 +5,12 @@
       from: 'Closed'
       to: 'Open'
     action:
-      service: notify.slackdoors
-      data:
-        message: "Lounge Door Is Open"
+      - service: notify.slackdoors
+        data:
+          message: "Lounge Door Is Open"
+      - service: notify.pushover
+        data:
+          message: "Lounge Door Is Open"
   - alias: 'Lounge Door Closed'
     trigger:
       platform: state

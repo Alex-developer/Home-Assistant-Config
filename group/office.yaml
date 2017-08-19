@@ -5,6 +5,7 @@
       - group.officeswitches
       - group.officelights
       - group.racingpc
+      - group.fpspc
       - group.officemotion
       - group.officeenv
       - group.officecooling
@@ -24,15 +25,29 @@
       - switch.racing
       - switch.office_desk
       - switch.racing_pc_wol
+      - switch.fps_pc_wol
   racingpc:
     name: Racing PC
+    control: hidden
     entities:
       - sensor.racingpc
+      - switch.racingpctemplate
+      - switch.racing
+      - switch.racing_pc_wol
       - input_select.racingpc
+  fpspc:
+    name: FPS PC
+    control: hidden
+    entities:
+      - sensor.fpspc
+      - switch.fpspctemplate
+      - switch.office_desk
+      - switch.fps_pc_wol
+      - input_select.fpspc
   officecooling:
     name: Cooling
     entities:
-      - switch.office_fan
+      - switch.office_air_con
   officemotion:
     name: "Office Motion"
     entities:

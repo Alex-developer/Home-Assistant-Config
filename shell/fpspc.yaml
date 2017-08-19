@@ -1,0 +1,4 @@
+  shutdown_fpspc: !secret shutdown_fpspc
+  restart_fpspc: !secret restart_fpspc
+  sleep_fpspc: !secret sleep_fpspc
+  hibernate_fpspc: !secret hibernate_fpspc

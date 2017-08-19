@@ -1,0 +1,28 @@
+  - alias: fpspc_restart
+    trigger:
+      platform: state
+      entity_id: input_select.fpspc
+      to: "Restart"
+    action:
+      - service: shell_command.restart_fpspc
+  - alias: fpspc_shutdown
+    trigger:
+      platform: state
+      entity_id: input_select.fpspc
+      to: "Shutdown"
+    action:
+      - service: shell_command.shutdown_fpspc
+  - alias: fpspc_sleep
+    trigger:
+      platform: state
+      entity_id: input_select.fpspc
+      to: "Sleep"
+    action:
+      - service: shell_command.sleep_fpspc
+  - alias: fpspc_hibernate
+    trigger:
+      platform: state
+      entity_id: input_select.fpspc
+      to: "Hibernate"
+    action:
+      - service: shell_command.hibernate_fpspc

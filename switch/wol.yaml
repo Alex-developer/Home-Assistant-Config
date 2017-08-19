@@ -2,3 +2,8 @@
     mac_address: !secret racingpc_mac
     name: "Racing PC WoL"
     host: !secret racingpc_wol_ipaddress
+
+  - platform: wake_on_lan
+    mac_address: !secret fpspc_mac
+    name: "FPS PC WoL"
+    host: !secret fpspc_ip

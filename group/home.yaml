@@ -1,6 +1,9 @@
   home:
     name: Home
+    control: hidden
     entities:
+      - switch.racingpctemplate
+      - switch.fpspctemplate
       - sensor.ring_last_ding
       - sensor.ring_front_door_battery
       - sensor.ring_last_motion

@@ -3,9 +3,24 @@ group.all_switches:
   hidden: false
 
 switch.racing:
+  friendly_name: Racing PC Power
+
+switch.office_air_con:
+  friendly_name: Office Air Con
+  icon: mdi:air-conditioner
+
+switch.fpspctemplate:
+  friendly_name: FPS PC
+  icon: mdi:desktop-tower
+
+switch.racingpctemplate:
   friendly_name: Racing PC
   icon: mdi:desktop-tower
 
-switch.office_fan:
-  friendly_name: Office Air Con
-  icon: mdi:air-conditioner
+switch.racing_pc_wol:
+  friendly_name: Racing PC WoL
+  icon: mdi:network
+
+switch.fps_pc_wol:
+  friendly_name: FPW PC WoL
+  icon: mdi:network

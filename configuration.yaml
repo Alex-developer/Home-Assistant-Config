@@ -48,3 +48,4 @@ apple_tv: !include apple_tv/lounge.yaml
 mqtt: !include mqtt/mqtt.yaml
 zone:  !include zones/zone_alex_work.yaml
 zone 2:  !include zones/zone_rebecca_work.yaml
+script: !include_dir_merge_named script

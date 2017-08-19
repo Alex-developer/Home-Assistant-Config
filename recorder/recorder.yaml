@@ -1,3 +1,4 @@
+  db_url: !secret recorder_db_url
   purge_days: 5
   exclude:
     domains:

@@ -93,6 +93,9 @@
       racingpc:
         value_template: '{% if is_state("device_tracker.desktopci356oq", "home") %}Online{% else %}Offline{% endif %}'
         friendly_name: 'Racing PC'
+      fpspc:
+        value_template: '{% if is_state("device_tracker.alexfps_2", "home") %}Online{% else %}Offline{% endif %}'
+        friendly_name: 'FPS PC'
       back_door:
         friendly_name: 'Back Door'
         value_template: "{{ 'Open' if is_state('binary_sensor.neo_coolcam_doorwindow_detector_sensor', 'on') else 'Closed' }}"
