@@ -7,6 +7,9 @@
       - delay: 00:00:10
       - service: switch.turn_on
         entity_id: switch.fps_pc_wol
+      - delay: 00:00:10
+      - service: switch.turn_on
+        entity_id: switch.fps_pc_wol
 
   stop_fps:
     sequence:

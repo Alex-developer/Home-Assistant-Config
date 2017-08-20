@@ -110,6 +110,13 @@ sensor.chester_temperature:
 #
 # Office
 #
+
+sensor.racingpc:
+  icon: mdi:lan
+
+sensor.fpspc:
+  icon: mdi:lan
+
 switch.racing:
   friendly_name: 'Racing PC'
   emulated_hue: False

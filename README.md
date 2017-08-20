@@ -9,6 +9,9 @@ My configuration files for Home Assistant
 
 ![lounge](screenshots/ha-lounge.png "Lounge Screenshot")
 
+
+![office](screenshots/ha-office.png "Office Screenshot")
+
 ## Hardware used ##
 
 + Raspberry Pi
@@ -42,6 +45,7 @@ My configuration files for Home Assistant
 + [Broadlink RM Mini 3](https://www.amazon.co.uk/gp/product/B01HPWMWCY/)
 + [Broadlink RM Pro](https://www.amazon.co.uk/d/Home-Audio-Video-Accessories/Broadlink-Automation-Learning-Universal-Control-Compatible-Smartphones/B01H6Y55QQ/)
 + [IPS Touch Screen](https://www.amazon.co.uk/gp/product/B073XDVX7R/)
++ [Power Line Adapters](https://www.amazon.co.uk/gp/product/B06XKKRDVR/)
 
 ## Software/Plugins Used ##
 

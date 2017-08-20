@@ -70,7 +70,7 @@ svg, svg * {
 }
 
 .light-on {
-  fill: #F8D2B9 !important;
+  fill: #00ff00 !important;
 }
 
 
@@ -81,7 +81,7 @@ svg, svg * {
 }
 
 .strip-light-on {
-  stroke: #F8D2B9 !important;
+  stroke: #00ff00 !important;
   stroke-width: 30px !important;
 }
 
@@ -99,7 +99,7 @@ svg, svg * {
 }
 
 .switch-on {
-  stroke: #F8D2B9 !important;
+  stroke: #00ff00 !important;
   stroke-width: 30px !important;
 }
 
@@ -118,5 +118,18 @@ svg, svg * {
 .motion-motion {
   stroke: #ff0000 !important;
   fill: #fff !important;
+  stroke-width: 3px !important;
+}
+
+
+/* PC */
+.pc-off {
+  stroke: #00ff00 !important;
+  fill: #00ff00 !important;
+}
+
+.pc-on {
+  stroke: #ff0000 !important;
+  fill: #ff0000 !important;
   stroke-width: 3px !important;
 }

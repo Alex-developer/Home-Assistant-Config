@@ -54,17 +54,27 @@
           action:
             service: toggle
 
+        - name: PC
+          entities:
+            - sensor.racingpc
+            - sensor.fpspc
+          states:
+            - state: 'Offline'
+              class: 'pc-on'
+            - state: 'Online'
+              class: 'pc-off'
+
         - name: Motion
           entities:
-            - sensor.aeotec_zw100_multisensor_6_burglar
-            - sensor.aeotec_zw100_multisensor_6_burglar_2
-            - sensor.aeotec_zw100_multisensor_6_burglar_3
+            - sensor.lounge_motion
+            - sensor.kitchen_motion
+            - sensor.chester_motion
+            - sensor.office_motion
+            - sensor.garage_motion
           states:
-            - state: '0'
+            - state: 'No Motion'
               class: 'motion-none'
-            - state: '3'
-              class: 'motion-tamper'
-            - state: '8'
+            - state: 'Motion'
               class: 'motion-motion'
 
         - name: Media Players
