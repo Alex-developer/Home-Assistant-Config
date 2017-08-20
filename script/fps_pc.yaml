@@ -1,27 +1,18 @@
   start_fps:
     sequence:
-      - alias: Office lights On
-        service: light.turn_on
-        data:
-          entity_id: light.office
-      - alias: Turn Desk Power On
-        service: switch.turn_on
-        data:
-          entity_id: office.desk
+      - service: switch.turn_on
+        entity_id: switch.office_desk
+      - service: light.turn_on
+        entity_id: light.office
       - delay: 00:00:10
-      - alias: Boot FPS pc
-        service: switch.turn_on
-        data:
-          entity_id: switch.fps_pc_wol
+      - service: switch.turn_on
+        entity_id: switch.fps_pc_wol
 
   stop_fps:
     sequence:
       - service: shell_command.shutdown_fpspc
       - delay: 00:00:30
-      - alias: Turn Desk Power Off
-        service: switch.turn_off
-        data:
-          entity_id: office.desk
+      - service: switch.turn_off
+        entity_id: switch.office_desk
       - service: light.turn_off
-        data:
-          entity_id: light.office
+        entity_id: light.office

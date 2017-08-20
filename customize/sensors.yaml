@@ -2,8 +2,9 @@
 # Lounge
 #
 sensor.netatmo_indoor_temperature:
-  friendly_name: 'Temperature'
+  friendly_name: 'Lounge Temperature'
   emulated_hue: False
+  icon: mdi:thermometer-lines
 
 sensor.netatmo_indoor_humidity:
   friendly_name: 'Humidity'
@@ -25,9 +26,10 @@ sensor.aeotec_zw100_multisensor_6_ultraviolet:
   friendly_name: 'UV Level'
   emulated_hue: False
 
-sensor.aeotec_zw100_multisensor_6_burglar:
-  friendly_name: 'Motion'
+sensor.lounge_motion:
+  friendly_name: 'Lounge Motion'
   emulated_hue: False
+  icon: mdi:walk
 
 switch.becs:
   friendly_name: 'Rebecca'
@@ -54,17 +56,19 @@ sensor.aeotec_zw100_multisensor_6_ultraviolet_2:
   friendly_name: 'UV Level'
   emulated_hue: False
 
-sensor.aeotec_zw100_multisensor_6_burglar_2:
-  friendly_name: 'Motion'
+sensor.kitchen_motion:
+  friendly_name: 'Kitchen Motion'
   emulated_hue: False
+  icon: mdi:walk
 
 sensor.aeotec_zw100_multisensor_6_relative_humidity_2:
   friendly_name: 'Humidity'
   emulated_hue: False
 
-sensor.aeotec_zw100_multisensor_6_temperature_2:
-  friendly_name: 'Temperature'
+sensor.kitchen_temperature:
+  friendly_name: 'Kitchen Temperature'
   emulated_hue: False
+  icon: mdi:thermometer-lines
 
 #
 # Garage
@@ -73,6 +77,35 @@ switch.chargers:
   friendly_name: 'Chargers'
   emulated_hue: False
   icon: mdi:power-plug
+
+sensor.garage_motion:
+  icon: mdi:walk
+
+sensor.garage_lux:
+  friendly_name: 'Light Level'
+  emulated_hue: False
+  icon: mdi:theme-light-dark
+
+sensor.garage_temperature:
+  friendly_name: 'Garage Temperature'
+  emulated_hue: False
+  icon: mdi:thermometer-lines
+
+#
+# Chesters Room
+#
+sensor.chester_motion:
+  icon: mdi:walk
+
+sensor.chester_lux:
+  friendly_name: 'Light Level'
+  emulated_hue: False
+  icon: mdi:theme-light-dark
+
+sensor.chester_temperature:
+  friendly_name: 'Garage Temperature'
+  emulated_hue: False
+  icon: mdi:thermometer-lines
 
 #
 # Office
@@ -93,16 +126,19 @@ switch.racing_pc_wol:
   icon: mdi:power-plug
 
 sensor.office_motion:
-  friendly_name: 'Motion'
+  friendly_name: 'Office Motion'
+  icon: mdi:walk
   emulated_hue: False
 
 sensor.office_lux:
   friendly_name: 'Light Level'
   emulated_hue: False
+  icon: mdi:theme-light-dark
 
 sensor.office_temperature:
-  friendly_name: 'Temperature'
+  friendly_name: 'Office Temperature'
   emulated_hue: False
+  icon: mdi:thermometer-lines
 
 sensor.neo_coolcam_water_leakage_detector_flood:
   friendly_name: 'Flood Sensor'

@@ -1,5 +1,5 @@
   racingpc:
-    name: Racing PC Options
+    name: Racing PC ommands
     options:
       - Restart
       - Shutdown

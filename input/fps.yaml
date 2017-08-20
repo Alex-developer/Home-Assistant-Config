@@ -1,5 +1,5 @@
   fpspc:
-    name: FPS PC Options
+    name: FPS PC Commands
     options:
       - Restart
       - Shutdown

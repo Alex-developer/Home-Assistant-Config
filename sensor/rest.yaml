@@ -1,7 +1,8 @@
   - platform: rest
     resource: !secret hue_chester_motion_url
-    value_template: '{{ value_json.state.status }}'
+    value_template: "{{ 'Motion' if value_json.state.status == 1 else 'No Motion' }}"
     name: 'Chester Motion'
+    scan_interval: 5
   - platform: rest
     resource: !secret hue_chester_lux_url
     value_template: '{{ (10 ** (float(value_json.state.lightlevel) / 10000) -1) | round (1)}}'
@@ -15,8 +16,9 @@
 
   - platform: rest
     resource: !secret hue_office_motion_url
-    value_template: '{{ value_json.state.status }}'
+    value_template: "{{ 'Motion' if value_json.state.status == 1 else 'No Motion' }}"
     name: 'Office Motion'
+    scan_interval: 5
   - platform: rest
     resource: !secret hue_office_lux_url
     value_template: '{{ (10 ** (float(value_json.state.lightlevel) / 10000) -1) | round (1)}}'
@@ -29,7 +31,17 @@
     name: 'Office Temperature'
 
   - platform: rest
-    resource: !secret kitchen_temp_url
-    value_template: '{{ value_json.state.temperature}}'
+    resource: !secret hue_garage_motion_url
+    value_template: "{{ 'Motion' if value_json.state.status == 1 else 'No Motion' }}"
+    name: 'Garage Motion'
+    scan_interval: 5
+  - platform: rest
+    resource: !secret hue_garage_lux_url
+    value_template: '{{ (10 ** (float(value_json.state.lightlevel) / 10000) -1) | round (1)}}'
+    unit_of_measurement: Lux
+    name: 'Garage Lux'
+  - platform: rest
+    resource: !secret hue_garage_temp_url
+    value_template: '{{ value_json.state.temperature | float / 100 }}'
     unit_of_measurement: °C
-    name: 'Kitchen Temperature alex'
+    name: 'Garage Temperature'

@@ -4,3 +4,21 @@
     entities:
       - group.all_lights
       - group.all_switches
+      - group.allmotion
+      - group.alltemp
+  allmotion:
+    name: "Motion"
+    entities:
+      - sensor.lounge_motion
+      - sensor.kitchen_motion
+      - sensor.chester_motion
+      - sensor.office_motion
+      - sensor.garage_motion
+  alltemp:
+    name: "Temperature"
+    entities:
+      - sensor.netatmo_indoor_temperature
+      - sensor.kitchen_temperature
+      - sensor.chester_temperature
+      - sensor.garage_temperature
+      - sensor.office_temperature

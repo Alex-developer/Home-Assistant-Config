@@ -32,4 +32,4 @@
   loungemotion:
     name: "Motion"
     entities:
-      - sensor.aeotec_zw100_multisensor_6_burglar
+      - sensor.lounge_motion

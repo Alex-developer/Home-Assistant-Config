@@ -1,15 +1,17 @@
   - platform: template
     switches:
       fpspctemplate:
+        friendly_name: FPS PC
         value_template: "{{ is_state('device_tracker.alexfps_2', 'home') }}"
         turn_on:
           service: script.turn_on
-          entity_id: script.start_racing
+          entity_id: script.start_fps
         turn_off:
           service: script.turn_on
-          entity_id: script.stop_racing
+          entity_id: script.stop_fps
 
       racingpctemplate:
+        friendly_name: Racing PC
         value_template: "{{ is_state('device_tracker.desktopci356oq', 'home') }}"
         turn_on:
           service: script.turn_on

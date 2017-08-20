@@ -3,9 +3,14 @@
     view: yes
     entities:
       - group.chesterenv
+      - group.chestermotion
   chesterenv:
     name: "Environment"
     entities:
       - sensor.chester_motion
       - sensor.chester_lux
       - sensor.chester_temperature
+  chestermotion:
+    name: "Motion"
+    entities:
+      - sensor.chester_motion

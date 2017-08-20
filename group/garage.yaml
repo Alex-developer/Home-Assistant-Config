@@ -3,8 +3,19 @@
     name: Garage
     entities:
       - group.garageswitches
+      - group.garageenv
+      - group.garagemotion
   garageswitches:
     name: "Garage"
     entities:
       - switch.chargers
       - switch.washing
+  garageenv:
+    name: "Environment"
+    entities:
+      - sensor.garage_lux
+      - sensor.garage_temperature
+  garagemotion:
+    name: "Garage Motion"
+    entities:
+      - sensor.garage_motion

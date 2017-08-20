@@ -92,10 +92,10 @@
         value_template: "{{ as_timestamp(states.sensor.ring_front_door_last_motion.attributes.created_at) |  timestamp_custom('%d %b %-I:%M %P') }}"
       racingpc:
         value_template: '{% if is_state("device_tracker.desktopci356oq", "home") %}Online{% else %}Offline{% endif %}'
-        friendly_name: 'Racing PC'
+        friendly_name: 'Racing PC Status'
       fpspc:
         value_template: '{% if is_state("device_tracker.alexfps_2", "home") %}Online{% else %}Offline{% endif %}'
-        friendly_name: 'FPS PC'
+        friendly_name: 'FPS PC Status'
       back_door:
         friendly_name: 'Back Door'
         value_template: "{{ 'Open' if is_state('binary_sensor.neo_coolcam_doorwindow_detector_sensor', 'on') else 'Closed' }}"
@@ -121,10 +121,20 @@
         friendly_name: 'Office Flood Battery'
         value_template: '{{ states.zwave.neo_coolcam_water_leakage_detector.attributes.battery_level }}'
         unit_of_measurement: '%'
+      lounge_motion:
+        friendly_name: 'Lounge Motion'
+        value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar','8') else 'No Motion' }}"
       lounge_motion_battery:
         friendly_name: 'Lounge Motion Battery'
         value_template: '{{ states.zwave.aeotec_zw100_multisensor_6.attributes.battery_level }}'
         unit_of_measurement: '%'
+      kitchen_motion:
+        friendly_name: 'Kitchen Motion'
+        value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar_2','8') else 'No Motion' }}"
+      kitchen_temperature:
+        friendly_name: 'Kitchen Temperature'
+        value_template: "{{ states.sensor.aeotec_zw100_multisensor_6_temperature_2.state }} °C"
+
       kitchen_motion_battery:
         friendly_name: 'Kitchen Motion Battery'
         value_template: '{{ states.zwave.aeotec_zw100_multisensor_6_2.attributes.battery_level }}'
