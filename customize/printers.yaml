@@ -1,0 +1,9 @@
+# ink icons by rpitera: https://community.home-assistant.io/t/epson-wf-3540-ink-level-monitoring/21813/2
+sensor.epson_ink_level_black:
+  entity_picture: /local/icon_ink_black.png
+sensor.epson_ink_level_magenta:
+  entity_picture: /local/icon_ink_magenta.png
+sensor.epson_ink_level_yellow:
+  entity_picture: /local/icon_ink_yellow.png
+sensor.epson_ink_level_cyan:
+  entity_picture: /local/icon_ink_cyan.png
