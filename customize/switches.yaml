@@ -8,3 +8,7 @@ switch.racing:
 switch.office_air_con:
   friendly_name: Office Air Con
   icon: mdi:air-conditioner
+
+switch.racingpctemplate:
+  emulated_hue: true
+  emulated_hue_name: iRacing

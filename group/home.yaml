@@ -4,6 +4,7 @@
     entities:
       - switch.racingpctemplate
       - switch.fpspctemplate
+      - sensor.ssl_cert_expiry
       - sensor.ring_last_ding
       - sensor.ring_front_door_battery
       - sensor.ring_last_motion

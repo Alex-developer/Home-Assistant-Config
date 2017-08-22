@@ -3,71 +3,56 @@
 #
 sensor.netatmo_indoor_temperature:
   friendly_name: 'Lounge Temperature'
-  emulated_hue: False
   icon: mdi:thermometer-lines
 
 sensor.netatmo_indoor_humidity:
   friendly_name: 'Humidity'
-  emulated_hue: False
 
 sensor.netatmo_indoor_co2:
   friendly_name: 'CO2 Level'
-  emulated_hue: False
 
 sensor.netatmo_indoor_noise:
   friendly_name: 'Noise Level'
-  emulated_hue: False
 
 sensor.aeotec_zw100_multisensor_6_luminance:
   friendly_name: 'Light Level'
-  emulated_hue: False
 
 sensor.aeotec_zw100_multisensor_6_ultraviolet:
   friendly_name: 'UV Level'
-  emulated_hue: False
 
 sensor.lounge_motion:
   friendly_name: 'Lounge Motion'
-  emulated_hue: False
   icon: mdi:walk
 
 switch.becs:
   friendly_name: 'Rebecca'
-  emulated_hue: False
   icon: mdi:power-plug
 
 switch.alex:
   friendly_name: 'Alex'
-  emulated_hue: False
   icon: mdi:power-plug
 
 media_player.ue55js8000_ue55js8000:
   friendly_name: 'TV'
-  emulated_hue: False
 
 #
 # Kitchen
 #
 sensor.aeotec_zw100_multisensor_6_luminance_2:
   friendly_name: 'Light Level'
-  emulated_hue: False
 
 sensor.aeotec_zw100_multisensor_6_ultraviolet_2:
   friendly_name: 'UV Level'
-  emulated_hue: False
 
 sensor.kitchen_motion:
   friendly_name: 'Kitchen Motion'
-  emulated_hue: False
   icon: mdi:walk
 
 sensor.aeotec_zw100_multisensor_6_relative_humidity_2:
   friendly_name: 'Humidity'
-  emulated_hue: False
 
 sensor.kitchen_temperature:
   friendly_name: 'Kitchen Temperature'
-  emulated_hue: False
   icon: mdi:thermometer-lines
 
 #
@@ -75,7 +60,6 @@ sensor.kitchen_temperature:
 #
 switch.chargers:
   friendly_name: 'Chargers'
-  emulated_hue: False
   icon: mdi:power-plug
 
 sensor.garage_motion:
@@ -83,12 +67,10 @@ sensor.garage_motion:
 
 sensor.garage_lux:
   friendly_name: 'Light Level'
-  emulated_hue: False
   icon: mdi:theme-light-dark
 
 sensor.garage_temperature:
   friendly_name: 'Garage Temperature'
-  emulated_hue: False
   icon: mdi:thermometer-lines
 
 #
@@ -99,12 +81,10 @@ sensor.chester_motion:
 
 sensor.chester_lux:
   friendly_name: 'Light Level'
-  emulated_hue: False
   icon: mdi:theme-light-dark
 
 sensor.chester_temperature:
-  friendly_name: 'Garage Temperature'
-  emulated_hue: False
+  friendly_name: 'Chester Temperature'
   icon: mdi:thermometer-lines
 
 #
@@ -119,32 +99,26 @@ sensor.fpspc:
 
 switch.racing:
   friendly_name: 'Racing PC'
-  emulated_hue: False
   icon: mdi:power-plug
 
 switch.office_desk:
   friendly_name: 'Desk'
-  emulated_hue: False
   icon: mdi:power-plug
 
 switch.racing_pc_wol:
   friendly_name: 'Racing WoL'
-  emulated_hue: False
   icon: mdi:power-plug
 
 sensor.office_motion:
   friendly_name: 'Office Motion'
   icon: mdi:walk
-  emulated_hue: False
 
 sensor.office_lux:
   friendly_name: 'Light Level'
-  emulated_hue: False
   icon: mdi:theme-light-dark
 
 sensor.office_temperature:
   friendly_name: 'Office Temperature'
-  emulated_hue: False
   icon: mdi:thermometer-lines
 
 sensor.neo_coolcam_water_leakage_detector_flood:
@@ -156,23 +130,24 @@ sensor.neo_coolcam_water_leakage_detector_flood:
 #
 sensor.ring_last_ding:
   friendly_name: 'Last Ring'
-  emulated_hue: False
 
 sensor.ring_last_motion:
   friendly_name: 'Last Motion'
-  emulated_hue: False
 
 sensor.ring_front_door_last_activity:
   friendly_name: 'Last Activity'
-  emulated_hue: False
 
 #
 # Hall
 #
 light.hall_1:
   friendly_name: 'Front Door'
-  emulated_hue: False
 
 light.hall_2:
   friendly_name: 'Hall'
-  emulated_hue: False
+
+#
+# Misc
+#
+sensor.ssl_cert_expiry:
+  icon: mdi:lock

@@ -1,15 +1,11 @@
 media_player.kitchen_home:
   friendly_name: 'Google Home'
-  emulated_hue: False
 
 media_player.lounge:
   friendly_name: 'Chromecast+'
-  emulated_hue: False
 
 media_player.spotify:
   friendly_name: 'Spotify'
-  emulated_hue: False
 
 media_player.office:
   friendly_name: 'Sonos'
-  emulated_hue: False
