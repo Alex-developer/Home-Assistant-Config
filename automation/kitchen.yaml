@@ -1,9 +1,9 @@
 - alias: 'Kitchen Motion Started'
   trigger:
     platform: state
-    entity_id: sensor.aeotec_zw100_multisensor_6_burglar_2
-    from: '0'
-    to: '8'
+    entity_id: sensor.kitchen_motion
+    from: 'No Motion'
+    to: 'Motion'
   condition:
     condition: and
     conditions:
@@ -14,16 +14,16 @@
         entity_id: device_tracker.rebecca
         state: not_home
   action:
-    service: notify.slack
+    service: notify.alex_notify
     data:
-      message: "Motion detected in the kitchen"
+      message: "There is motion in the Kitchen"
 
 - alias: 'Kitchen Motion Ended'
   trigger:
     platform: state
-    entity_id: sensor.aeotec_zw100_multisensor_6_burglar_2
-    from: '8'
-    to: '0'
+    entity_id: sensor.kitchen_motion
+    from: 'Motion'
+    to: 'No Motion'
   condition:
     condition: and
     conditions:
@@ -34,6 +34,6 @@
         entity_id: device_tracker.rebecca
         state: not_home
   action:
-    service: notify.slack
+    service: notify.alex_notify
     data:
-      message: "No Motion detected in the kitchen"
+      message: "There is no motion in the Kitchen"

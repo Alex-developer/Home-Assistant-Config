@@ -3,9 +3,6 @@
       platform: state
       entity_id: updater.updater
     action:
-    - service: notify.slackupdates
-      data:
-        message: "An Update Is Available For Home Assistant"
     - service: notify.alex_notify
       data:
         message: "An Update Is Available For Home Assistant"

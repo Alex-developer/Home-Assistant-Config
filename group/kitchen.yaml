@@ -18,7 +18,7 @@
   kitchenmotion:
     name: "Motion"
     entities:
-      - sensor.aeotec_zw100_multisensor_6_burglar_2
+      - sensor.kitchen_motion
   kitchenenv:
     name: "Environment"
     entities:

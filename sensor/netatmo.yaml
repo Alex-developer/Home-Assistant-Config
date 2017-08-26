@@ -1,5 +1,6 @@
   - platform: netatmo
     station: Home
+    scan_interval: 600
     modules:
       Indoor:
         - temperature

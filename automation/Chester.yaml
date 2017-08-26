@@ -1,7 +1,7 @@
-- alias: 'Lounge Motion Started'
+- alias: 'Chester Motion Started'
   trigger:
     platform: state
-    entity_id: sensor.lounge_motion
+    entity_id: sensor.chester_motion
     from: 'No Motion'
     to: 'Motion'
   condition:
@@ -16,12 +16,12 @@
   action:
     service: notify.alex_notify
     data:
-      message: "There is motion in the Lounge"
+      message: "There is motion in the Chester's Room"
 
-- alias: 'Lounge Motion Ended'
+- alias: 'Chester Motion Ended'
   trigger:
     platform: state
-    entity_id: sensor.lounge_motion
+    entity_id: sensor.chester_motion
     from: 'Motion'
     to: 'No Motion'
   condition:
@@ -36,4 +36,4 @@
   action:
     service: notify.alex_notify
     data:
-      message: "There is no motion in the Lounge"
+      message: "There is no motion in the Chester's Room"

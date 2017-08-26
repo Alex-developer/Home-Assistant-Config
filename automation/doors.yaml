@@ -4,23 +4,39 @@
       entity_id: sensor.back_door
       from: 'Closed'
       to: 'Open'
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.alex
+          state: not_home
+        - condition: state
+          entity_id: device_tracker.rebecca
+          state: not_home
     action:
-      - service: notify.slackdoors
-        data:
-          message: "Lounge Door Is Open"
-      - service: notify.pushover
-        data:
-          message: "Lounge Door Is Open"
+      service: notify.alex_notify
+      data:
+        message: "The Lounge door is open"
+
   - alias: 'Lounge Door Closed'
     trigger:
       platform: state
       entity_id: sensor.back_door
       from: 'Open'
       to: 'Closed'
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.alex
+          state: not_home
+        - condition: state
+          entity_id: device_tracker.rebecca
+          state: not_home
     action:
-      service: notify.slackdoors
+      service: notify.alex_notify
       data:
-        message: "Lounge Door Is Closed"
+        message: "The Lounge door is closed"
 
   - alias: 'Front Door Open'
     trigger:
@@ -28,20 +44,39 @@
       entity_id: sensor.front_door
       from: 'Closed'
       to: 'Open'
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.alex
+          state: not_home
+        - condition: state
+          entity_id: device_tracker.rebecca
+          state: not_home
     action:
-      service: notify.slackdoors
+      service: notify.alex_notify
       data:
-        message: "Front Door Is Open"
+        message: "The Front door is open"
+
   - alias: 'Front Door Closed'
     trigger:
       platform: state
       entity_id: sensor.front_door
       from: 'Open'
       to: 'Closed'
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.alex
+          state: not_home
+        - condition: state
+          entity_id: device_tracker.rebecca
+          state: not_home
     action:
-      service: notify.slackdoors
+      service: notify.alex_notify
       data:
-        message: "Front Door Is Closed"
+        message: "The Front door is closed"
 
   - alias: 'Garage Door Open'
     trigger:
@@ -49,17 +84,36 @@
       entity_id: sensor.garage_door
       from: 'Closed'
       to: 'Open'
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.alex
+          state: not_home
+        - condition: state
+          entity_id: device_tracker.rebecca
+          state: not_home
     action:
-      service: notify.slackdoors
+      service: notify.alex_notify
       data:
-        message: "Garage Door Is Open"
+        message: "The Garage door is open"
+
   - alias: 'Garage Door Closed'
     trigger:
       platform: state
       entity_id: sensor.garage_door
       from: 'Open'
       to: 'Closed'
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.alex
+          state: not_home
+        - condition: state
+          entity_id: device_tracker.rebecca
+          state: not_home
     action:
-      service: notify.slackdoors
+      service: notify.alex_notify
       data:
-        message: "Garage Door Is Closed"
+        message: "The Garage door is closed"

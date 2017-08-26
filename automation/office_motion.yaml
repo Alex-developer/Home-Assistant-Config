@@ -14,9 +14,10 @@
           entity_id: device_tracker.rebecca
           state: not_home
     action:
-      service: notify.slack
+      service: notify.alex_notify
       data:
-        message: "Motion detected in the office"
+        message: "There is motion in the Office"
+
   - alias: 'Office Motion Ended'
     trigger:
       platform: state
@@ -33,6 +34,6 @@
           entity_id: device_tracker.rebecca
           state: not_home
     action:
-      service: notify.slack
+      service: notify.alex_notify
       data:
-        message: "No motion in the office"
+        message: "There is no motion in the Office"
