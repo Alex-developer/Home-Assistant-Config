@@ -12,3 +12,7 @@ switch.office_air_con:
 switch.racingpctemplate:
   emulated_hue: true
   emulated_hue_name: iRacing
+
+switch.templateloungeitv:
+  emulated_hue: true
+  emulated_hue_name: telly

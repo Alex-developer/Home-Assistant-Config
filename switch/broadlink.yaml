@@ -1,0 +1,14 @@
+  - platform: broadlink
+    host: !secret mini_3_ip
+    mac: !secret mini_3_mac
+    timeout: 10
+    friendly_name: 'Mini 3'
+    switches:
+      tv_lounge_onoff:
+        friendly_name: 'Lounge TV'
+        command_on: 'JgBGAJKVETkRORA6ERQRFBEUERQRFBE5ETkQOhAVEBUQFREUEBUQOhEUERQRORE5EBURFBA6EBUQOhE5EBUQFRA6EDoRFBEADQUAAA=='
+        command_off: 'JgBGAJOVEDoQOhA6DxYPFhAVEBUQFRA6ETkROREUERQRFBEUEBUQFREUERQRORE5EBUQFRE5ETkRORE5ERUQFRA6DzsPFhAADQUAAA=='
+      sky_power:
+        friendly_name: 'Sky Power'
+        command_on: 'JgAwAFUeDRANEA0eDR4cDw0QDRANEA0PHR0bEA0QDh0NEBseDg8NEA0QDRANDw0QDgANBQAAAAAAAAAA'
+        command_off: 'JgAwAFUeDRANEA0eDR4cDw0QDRANEA0PHR0bEA0QDh0NEBseDg8NEA0QDRANDw0QDgANBQAAAAAAAAAA'

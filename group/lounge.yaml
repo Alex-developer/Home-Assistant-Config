@@ -16,6 +16,8 @@
     entities:
       - switch.becs
       - switch.alex
+      - switch.lounge_tv
+      - switch.templateloungeitv
   loungedoors:
     name: "Doors"
     entities:

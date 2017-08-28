@@ -1,0 +1,42 @@
+  stop_itv:
+    sequence:
+      - service: switch.turn_off
+        entity_id: switch.lounge_tv
+      - service: switch.turn_off
+        entity_id: switch.sky_power
+
+  start_itv:
+    sequence:
+      - service: switch.turn_on
+        entity_id: switch.lounge_tv
+      - delay: 00:00:20
+      - alias: Switch to HMDI1
+        service: broadlink.send_packet_192_168_1_50
+        data:
+          packet:
+            - "JgBGAJKVETkRORE5ERQQFRAVERQQFRE5ETkROREUERQRFBEUERQRORAVERUPOxAVDzsQOhA6EBUQOhA6EBUQOhAVEBUPFhAADQUAAA"
+      - service: switch.turn_on
+        entity_id: switch.sky_power
+      - delay: 00:00:10
+      - alias: Turn Soundbar On
+        service: broadlink.send_packet_192_168_1_50
+        data:
+          packet:
+            - "JgCgAJGUEBAQERAREBEPMg8yEBEQEA8zDzIPMhAyDxEPEhARDxEPlBARDxEPEg8SEBAQERARDxEQMg8yDzIPEhAxDzIQMhAxDxIQEA8SEDEQAAcNkZQPEg8SEBAQERAvEjEQEQ8SDzIPMhAyDzIPEg8REBEPEg"
+      - alias: Send 1
+        service: broadlink.send_packet_192_168_1_50
+        data:
+          packet:
+            - "JgAwAFUeDRAODw0eDR4cEA0PDRANEA0QGx4cDw4PDR4ODw0QDg8NEA0QDQ8NEA4PHAANBQAAAAAAAAAA"
+      - delay: 00:00:01
+      - alias: Send 7
+        service: broadlink.send_packet_192_168_1_50
+        data:
+          packet:
+            - "JgAwAFUfDg4ODw0eDR4cEA0QDQ8NEA4PHB0cEA0PDh4NDw4PDRANEA4PDRAbEA4PDQANBQAAAAAAAAAA"
+      - delay: 00:00:01
+      - alias: Send 8
+        service: broadlink.send_packet_192_168_1_50
+        data:
+          packet:
+            - "JgAwAFYeDRANDw4eDR4bEA0QDg8NDw0QHB4bEA0QDR4NEA4PDQ8NEA0QGx4ODw4PDgANBQAAAAAAAAAA"

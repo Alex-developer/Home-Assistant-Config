@@ -19,3 +19,13 @@
         turn_off:
           service: script.turn_on
           entity_id: script.stop_racing
+
+      templateloungeitv:
+        friendly_name: 'Lounge ITV'
+        value_template: "{{ is_state('device_tracker.localhost', 'home1') }}"
+        turn_on:
+          service: script.turn_on
+          entity_id: script.start_itv
+        turn_off:
+          service: script.turn_on
+          entity_id: script.stop_itv
