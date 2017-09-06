@@ -8,7 +8,7 @@ homeassistant:
   customize: !include_dir_merge_named customize
   customize_glob: !include_dir_merge_named ui
 
-frontend:
+frontend: !include frontend/frontend.yaml
 config:
 updater:
 conversation:

@@ -9,12 +9,7 @@
     sequence:
       - service: switch.turn_on
         entity_id: switch.lounge_tv
-      - delay: 00:00:20
-      - alias: Switch to HMDI1
-        service: broadlink.send_packet_192_168_1_50
-        data:
-          packet:
-            - "JgBGAJKVETkRORE5ERQQFRAVERQQFRE5ETkROREUERQRFBEUERQRORAVERUPOxAVDzsQOhA6EBUQOhA6EBUQOhAVEBUPFhAADQUAAA"
+      - delay: 00:00:10
       - service: switch.turn_on
         entity_id: switch.sky_power
       - delay: 00:00:10
@@ -40,3 +35,8 @@
         data:
           packet:
             - "JgAwAFYeDRANDw4eDR4bEA0QDg8NDw0QHB4bEA0QDR4NEA4PDQ8NEA0QGx4ODw4PDgANBQAAAAAAAAAA"
+      - alias: Switch to HMDI1
+        service: broadlink.send_packet_192_168_1_50
+        data:
+          packet:
+            - "JgBGAJKVETkRORE5ERQQFRAVERQQFRE5ETkROREUERQRFBEUERQRORAVERUPOxAVDzsQOhA6EBUQOhA6EBUQOhAVEBUPFhAADQUAAA"
