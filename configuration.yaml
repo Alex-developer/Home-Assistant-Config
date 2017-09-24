@@ -6,7 +6,10 @@ homeassistant:
   unit_system: metric
   time_zone: Europe/London
   customize: !include_dir_merge_named customize
-  customize_glob: !include_dir_merge_named ui
+  customize_glob: !include ui/ui.yaml
+
+customizer:
+  custom_ui: local
 
 frontend: !include frontend/frontend.yaml
 config:
@@ -19,7 +22,6 @@ upnp: !include platform/upnp.yaml
 logbook: !include logbook/logbook.yaml
 discovery: !include discovery/discovery.yaml
 zeroconf:
-shopping_list:
 
 ffmpeg: !include platform/ffmpeg.yaml
 recorder: !include recorder/recorder.yaml
@@ -50,3 +52,6 @@ zone:  !include zones/zone_alex_work.yaml
 zone 2:  !include zones/zone_rebecca_work.yaml
 script: !include_dir_merge_named script
 emulated_hue: !include platform/emulated_hue.yaml
+
+input_slider: !include_dir_merge_named input_slider
+input_boolean: !include_dir_merge_named input_boolean

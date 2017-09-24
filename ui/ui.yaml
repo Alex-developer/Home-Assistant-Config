@@ -1,0 +1,25 @@
+    light.*:
+      custom_ui_state_card: state-card-custom-ui
+      show_last_changed: false
+      state_card_mode: single-line
+    switch.alex:
+      custom_ui_state_card: state-card-custom-ui
+      show_last_changed: false
+      extra_badge:
+        entity_id: sensor.alex_power
+    switch.becs:
+      custom_ui_state_card: state-card-custom-ui
+      show_last_changed: false
+      extra_badge:
+        entity_id: sensor.becs_power
+    switch.office_desk:
+      custom_ui_state_card: state-card-custom-ui
+      show_last_changed: false
+      extra_badge:
+        entity_id: sensor.desk_power
+    switch.racing:
+      custom_ui_state_card: state-card-custom-ui
+      confirm_controls_show_lock: true
+      show_last_changed: false
+      extra_badge:
+        entity_id: sensor.racing_power

@@ -34,6 +34,7 @@
             - camera.lounge
             - camera.kitchen
             - camera.office
+            - camera.front_garden
           states:
             - state: 'idle'
               class: 'camera-idle'
@@ -46,6 +47,7 @@
             - switch.racing
             - switch.office_desk
             - switch.chargers
+            - switch.front_camera
           states:
             - state: 'on'
               class: 'switch-on'

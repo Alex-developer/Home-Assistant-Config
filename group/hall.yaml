@@ -5,6 +5,7 @@
       - group.halllights
       - group.hall_doors
       - group.hallmotion
+      - group.hallenv
   halllights:
     name: "Lights"
     entities:
@@ -18,4 +19,11 @@
   hallmotion:
     name: "Motion"
     entities:
-      - sensor.aeotec_zw100_multisensor_6_burglar_3
+      - sensor.hall_motion
+  hallenv:
+    name: "Environment"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_luminance_3
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_3
+      - sensor.hall_temperature
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_3

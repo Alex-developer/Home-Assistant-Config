@@ -15,6 +15,7 @@ known_devices.yaml
 *.conf
 plex.conf
 phue.conf
+emulated_hue_ids.json
 harmony_media_room.conf
 pyozw.sqlite
 .*
@@ -26,3 +27,9 @@ ip_bans.yaml
 .ring_cache.pickle
 zwcfg*
 zwscene.xml
+/automations.yaml
+/update.sh
+/www/custom_ui/state-card-custom-ui.html
+/www/custom_ui/state-card-custom-ui.html.gz
+/custom_components/customizer/
+/appdaemon/*

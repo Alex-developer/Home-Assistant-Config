@@ -1,0 +1,32 @@
+  foscam_mirror:
+    name: Mirror picture
+    initial: off
+    icon: mdi:swap-horizontal
+  foscam_flip:
+    name: Flip picture
+    initial: off
+    icon: mdi:swap-vertical
+  foscam_motion_detect:
+    name: Motion detect on
+    initial: off
+    icon: mdi:radar
+  foscam_stop_cruise:
+    name: Stop cruise
+    initial: off
+    icon: mdi:square
+  foscam_default_picture_settings:
+    name: Set default picture settings
+    initial: off
+    icon: mdi:settings
+  foscam_infrared:
+    name: Infrared
+    initial: off
+    icon: mdi:weather-night
+  foscam_auto_infrared:
+    name: Infrared automated
+    initial: off
+    icon: mdi:weather-night
+  foscam_snap_picture_now:
+    name: Take picture
+    initial: off
+    icon: mdi:record-rec

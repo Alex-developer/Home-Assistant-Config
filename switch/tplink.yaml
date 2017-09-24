@@ -25,3 +25,7 @@
   # Office Fan
   - platform: tplink
     host: 192.168.1.55
+
+  # Front Camera
+  - platform: tplink
+    host: 192.168.1.58

@@ -1,3 +1,5 @@
-  - platform: mjpeg
-    mjpeg_url: !secret camera_office_url
-    name: 'Office'
+  - platform: foscam
+    ip: !secret camera_office_ip
+    username: !secret camera_office_user
+    password: !secret camera_office_password
+    name: Office

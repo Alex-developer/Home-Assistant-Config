@@ -1,0 +1,56 @@
+  foscam_zoom:
+    name: Zoom
+    initial: 0
+    min: -5
+    max: 5
+    step: 1
+    icon: mdi:binoculars
+  foscam_up_down:
+    name: Move vertical
+    initial: 0
+    min: -5
+    max: 5
+    step: 1
+    icon: mdi:swap-vertical
+  foscam_left_right:
+    name: Move horizontal
+    initial: 0
+    min: -5
+    max: 5
+    step: 1
+    icon: mdi:swap-horizontal
+  foscam_hue:
+    name: Hue
+    initial: 50
+    min: 0
+    max: 100
+    step: 1
+    icon: mdi:atom
+  foscam_brightness:
+    name: Brightness
+    initial: 50
+    min: 0
+    max: 100
+    step: 1
+    icon: mdi:brightness-6
+  foscam_contrast:
+    name: Contrast
+    initial: 50
+    min: 0
+    max: 100
+    step: 1
+    icon: mdi:contrast-circle
+  foscam_saturation:
+    name: Saturation
+    initial: 50
+    min: 0
+    max: 100
+    step: 1
+    icon: mdi:brightness-7
+  foscam_sharpness:
+    name: Sharpness
+    initial: 50
+    min: 0
+    max: 100
+    step: 1
+    icon: mdi:image-filter

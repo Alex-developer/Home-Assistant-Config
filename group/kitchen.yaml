@@ -22,7 +22,7 @@
   kitchenenv:
     name: "Environment"
     entities:
-      - sensor.aeotec_zw100_multisensor_6_temperature_2
+      - sensor.kitchen_temperature
       - sensor.kitchen_temperature_alex
       - sensor.aeotec_zw100_multisensor_6_luminance_2
       - sensor.aeotec_zw100_multisensor_6_ultraviolet_2

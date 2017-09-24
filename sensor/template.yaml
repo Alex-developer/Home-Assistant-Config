@@ -34,7 +34,7 @@
         value_template: '{{ states.switch.office_fan.attributes.Current }}'
         unit_of_measurement: 'A'
       office_fan_power:
-        value_template: '{{ states.switch.office_fan.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.office_fan.attributes["Current consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       alex_volts:
         value_template: '{{ states.switch.alex.attributes.Voltage }}'
@@ -43,7 +43,7 @@
         value_template: '{{ states.switch.alex.attributes.Current }}'
         unit_of_measurement: 'A'
       alex_power:
-        value_template: '{{ states.switch.alex.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.alex.attributes["Current consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       becs_volts:
         value_template: '{{ states.switch.becs.attributes.Voltage }}'
@@ -52,7 +52,7 @@
         value_template: '{{ states.switch.becs.attributes.Current }}'
         unit_of_measurement: 'A'
       becs_power:
-        value_template: '{{ states.switch.becs.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.becs.attributes["Current consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       desk_volts:
         value_template: '{{ states.switch.office_desk.attributes.Voltage }}'
@@ -61,7 +61,7 @@
         value_template: '{{ states.switch.office_desk.attributes.Current }}'
         unit_of_measurement: 'A'
       desk_power:
-        value_template: '{{ states.switch.office_desk.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.office_desk.attributes["Current consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       racing_volts:
         value_template: '{{ states.switch.racing.attributes.Voltage }}'
@@ -70,7 +70,7 @@
         value_template: '{{ states.switch.racing.attributes.Current }}'
         unit_of_measurement: 'A'
       racing_power:
-        value_template: '{{ states.switch.racing.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.racing.attributes["Current consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       pi_server_volts:
         value_template: '{{ states.switch.pi_server.attributes.Voltage }}'
@@ -121,6 +121,7 @@
         friendly_name: 'Office Flood Battery'
         value_template: '{{ states.zwave.neo_coolcam_water_leakage_detector.attributes.battery_level }}'
         unit_of_measurement: '%'
+
       lounge_motion:
         friendly_name: 'Lounge Motion'
         value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar','8') else 'No Motion' }}"
@@ -128,17 +129,25 @@
         friendly_name: 'Lounge Motion Battery'
         value_template: '{{ states.zwave.aeotec_zw100_multisensor_6.attributes.battery_level }}'
         unit_of_measurement: '%'
+
       kitchen_motion:
         friendly_name: 'Kitchen Motion'
         value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar_2','8') else 'No Motion' }}"
       kitchen_temperature:
         friendly_name: 'Kitchen Temperature'
         value_template: "{{ states.sensor.aeotec_zw100_multisensor_6_temperature_2.state }} °C"
-
       kitchen_motion_battery:
         friendly_name: 'Kitchen Motion Battery'
         value_template: '{{ states.zwave.aeotec_zw100_multisensor_6_2.attributes.battery_level }}'
         unit_of_measurement: '%'
+
+
+      hall_motion:
+        friendly_name: 'Hall Motion'
+        value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar_3','8') else 'No Motion' }}"
+      hall_temperature:
+        friendly_name: 'Hall Temperature'
+        value_template: "{{ states.sensor.aeotec_zw100_multisensor_6_temperature_3.state }} °C"
       hall_motion_battery:
         friendly_name: 'Hall Motion Battery'
         value_template: '{{ states.zwave.aeotec_zw100_multisensor_6_3.attributes.battery_level }}'
