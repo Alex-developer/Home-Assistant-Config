@@ -1,20 +1,12 @@
   foscam_preset_points:
     name: Preset points
     options:
-     - Terras
-     - Oprit
-     - dak
-     - straat
-     - bovenste
-     - onderste
-     - meest linkse
-     - meest rechtse
-    initial: Terras
+     - room
+     - racing
+    initial: room
 # the preset cruises also need to be created in the cam
   foscam_preset_cruise:
     name: Preset cruises
     options:
      - horizontal
      - vertical
-     - terras_oprit
-     - oprit
