@@ -4,7 +4,7 @@
     entities:
       - group.loungeswitches
       - group.loungedoors
-      - light.lounge
+      - group.loungelights
       - group.loungeenv
       - group.loungemotion
       - media_player.lounge
@@ -19,6 +19,11 @@
       - switch.alex
       - switch.lounge_tv
       - switch.templateloungeitv
+  loungelights:
+    name: "Lights"
+    entities:
+      - light.lounge
+      - light.tv_backlight
   loungedoors:
     name: "Doors"
     entities:

@@ -53,5 +53,5 @@ zone 2:  !include zones/zone_rebecca_work.yaml
 script: !include_dir_merge_named script
 emulated_hue: !include platform/emulated_hue.yaml
 
-input_slider: !include_dir_merge_named input_slider
+input_number: !include_dir_merge_named input_number
 input_boolean: !include_dir_merge_named input_boolean

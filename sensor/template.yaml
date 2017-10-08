@@ -25,7 +25,7 @@
         value_template: '{{ states.switch.chargers.attributes.Current }}'
         unit_of_measurement: 'A'
       chargers_power:
-        value_template: '{{ states.switch.chargers.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.chargers.attributes["current_consumption"] }}'
         unit_of_measurement: 'W'
       office_fan_volts:
         value_template: '{{ states.switch.office_fan.attributes.Voltage }}'
@@ -34,7 +34,7 @@
         value_template: '{{ states.switch.office_fan.attributes.Current }}'
         unit_of_measurement: 'A'
       office_fan_power:
-        value_template: '{{ states.switch.office_fan.attributes["Current consumption"] | replace(" W","") | int }}'
+        value_template: '{{ states.switch.office_fan.attributes["current_consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       alex_volts:
         value_template: '{{ states.switch.alex.attributes.Voltage }}'
@@ -43,7 +43,7 @@
         value_template: '{{ states.switch.alex.attributes.Current }}'
         unit_of_measurement: 'A'
       alex_power:
-        value_template: '{{ states.switch.alex.attributes["Current consumption"] | replace(" W","") | int }}'
+        value_template: '{{ states.switch.alex.attributes["current_consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       becs_volts:
         value_template: '{{ states.switch.becs.attributes.Voltage }}'
@@ -52,7 +52,7 @@
         value_template: '{{ states.switch.becs.attributes.Current }}'
         unit_of_measurement: 'A'
       becs_power:
-        value_template: '{{ states.switch.becs.attributes["Current consumption"] | replace(" W","") | int }}'
+        value_template: '{{ states.switch.becs.attributes["current_consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       desk_volts:
         value_template: '{{ states.switch.office_desk.attributes.Voltage }}'
@@ -61,7 +61,7 @@
         value_template: '{{ states.switch.office_desk.attributes.Current }}'
         unit_of_measurement: 'A'
       desk_power:
-        value_template: '{{ states.switch.office_desk.attributes["Current consumption"] | replace(" W","") | int }}'
+        value_template: '{{ states.switch.office_desk.attributes["current_consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       racing_volts:
         value_template: '{{ states.switch.racing.attributes.Voltage }}'
@@ -70,7 +70,7 @@
         value_template: '{{ states.switch.racing.attributes.Current }}'
         unit_of_measurement: 'A'
       racing_power:
-        value_template: '{{ states.switch.racing.attributes["Current consumption"] | replace(" W","") | int }}'
+        value_template: '{{ states.switch.racing.attributes["current_consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
       pi_server_volts:
         value_template: '{{ states.switch.pi_server.attributes.Voltage }}'
@@ -79,7 +79,7 @@
         value_template: '{{ states.switch.pi_server.attributes.Current }}'
         unit_of_measurement: 'A'
       pi_server_power:
-        value_template: '{{ states.switch.pi_server.attributes["Current consumption"] }}'
+        value_template: '{{ states.switch.pi_server.attributes["current_consumption"] }}'
         unit_of_measurement: 'W'
       ring_last_ding:
         friendly_name: Last Ding Time
