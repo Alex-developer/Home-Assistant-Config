@@ -12,6 +12,9 @@ My configuration files for Home Assistant
 
 ![office](screenshots/ha-office.png "Office Screenshot")
 
+
+![Selfish Plug](screenshots/ha-ag.png "AgSattrack Screenshot")
+
 ## Hardware used ##
 
 + Raspberry Pi
