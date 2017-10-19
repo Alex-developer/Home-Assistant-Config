@@ -24,6 +24,8 @@
     entities:
       - light.lounge
       - light.tv_backlight
+      - light.lounge_lamp
+      - light.lounge_spot
   loungedoors:
     name: "Doors"
     entities:
