@@ -22,6 +22,7 @@ upnp: !include platform/upnp.yaml
 logbook: !include logbook/logbook.yaml
 discovery: !include discovery/discovery.yaml
 zeroconf:
+map:
 
 ffmpeg: !include platform/ffmpeg.yaml
 recorder: !include recorder/recorder.yaml
