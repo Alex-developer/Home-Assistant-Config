@@ -4,6 +4,7 @@
     entities:
       - group.frontdoorbell
       - group.frontdoorbellchime
+      - camera.front_door
   frontdoorbell:
     name: "Door Bell"
     entities:

@@ -42,13 +42,16 @@ My configuration files for Home Assistant
 + [Netatmo Healthy Home Coach](https://www.amazon.co.uk/Netatmo-Healthy-Indoor-Climate-Monitor/dp/B01M67SMOZ/)
 + [Sonos Play 5](http://www.sonos.com/en-gb/home)
 + [Google Chromecast](https://www.google.com/intl/en_uk/chromecast/)
-+ [Amazon Echo](https://www.amazon.co.uk/Amazon-SK705DI-Echo-Black/dp/B01GAGVIE4)
-+ [Amazon Dot](https://www.amazon.co.uk/Amazon-Echo-Dot-Generation-Black/dp/B01DFKBL68/)
++ [Amazon Echo Show](https://www.amazon.co.uk/Introducing-Echo-Show-Black-Now-Alexa-Can-Show-You-Things/dp/B01KGEWACK)
++ [Amazon Echo's](https://www.amazon.co.uk/Amazon-SK705DI-Echo-Black/dp/B01GAGVIE4)
++ [Amazon Dot's](https://www.amazon.co.uk/Amazon-Echo-Dot-Generation-Black/dp/B01DFKBL68/)
 + [Google Home](https://madeby.google.com/home/)
++ [Google Home Mini](https://madeby.google.com/home/)
 + [Broadlink RM Mini 3](https://www.amazon.co.uk/gp/product/B01HPWMWCY/)
 + [Broadlink RM Pro](https://www.amazon.co.uk/d/Home-Audio-Video-Accessories/Broadlink-Automation-Learning-Universal-Control-Compatible-Smartphones/B01H6Y55QQ/)
 + [IPS Touch Screen](https://www.amazon.co.uk/gp/product/B073XDVX7R/)
 + [Power Line Adapters](https://www.amazon.co.uk/gp/product/B06XKKRDVR/)
++ [Control 4](https://www.control4.com/)
 
 ## Software/Plugins Used ##
 

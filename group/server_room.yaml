@@ -4,6 +4,7 @@
     entities:
       - group.server_room_switches
       - group.server_room_pi
+      - group.server_room_ha
       - group.server_room_speedtest
       - group.server_room_batteries
       - group.server_room_wifi_status
@@ -55,3 +56,7 @@
     name: "Switches"
     entities:
       - switch.pi_server
+  server_room_ha:
+    name: "Home Assistant"
+    entities:
+      - sensor.uptime
