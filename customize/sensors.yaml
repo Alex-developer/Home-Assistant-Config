@@ -29,10 +29,14 @@ sensor.lounge_motion:
 
 switch.becs:
   friendly_name: 'Rebecca'
+  emulated_hue_hidden: false
+  emulated_hue_name: Becs
   icon: mdi:power-plug
 
 switch.alex:
   friendly_name: 'Alex'
+  emulated_hue_hidden: false
+  emulated_hue_name: Alex
   icon: mdi:power-plug
 
 media_player.ue55js8000_ue55js8000:

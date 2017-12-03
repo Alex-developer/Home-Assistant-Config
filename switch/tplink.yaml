@@ -22,10 +22,14 @@
   - platform: tplink
     host: 192.168.1.52
 
-  # Office Fan
+  # Christmas Tree
   - platform: tplink
     host: 192.168.1.55
 
   # Front Camera
   - platform: tplink
     host: 192.168.1.58
+
+  # Front Xmas Lights
+  - platform: tplink
+    host: 192.168.1.62

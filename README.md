@@ -52,6 +52,9 @@ My configuration files for Home Assistant
 + [IPS Touch Screen](https://www.amazon.co.uk/gp/product/B073XDVX7R/)
 + [Power Line Adapters](https://www.amazon.co.uk/gp/product/B06XKKRDVR/)
 + [Control 4](https://www.control4.com/)
++ [Lifx Bulbs](https://uk.lifx.com/)
++ [Smarter Coffee Machine](https://smarter.am/coffee/)
++ [Logitech Harmony Remote](https://www.logitech.com/en-gb/harmony-universal-remotes)
 
 ## Software/Plugins Used ##
 

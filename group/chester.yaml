@@ -4,6 +4,7 @@
     entities:
       - group.chesterenv
       - group.chestermotion
+      - group.chesterlights
   chesterenv:
     name: "Environment"
     entities:
@@ -14,3 +15,7 @@
     name: "Motion"
     entities:
       - sensor.chester_motion
+  chesterlights:
+    name: "Lights"
+    entities:
+      - light.chester_light

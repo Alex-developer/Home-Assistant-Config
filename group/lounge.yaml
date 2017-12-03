@@ -26,6 +26,7 @@
       - light.tv_backlight
       - light.lounge_lamp
       - light.lounge_spot
+      - switch.christmas
   loungedoors:
     name: "Doors"
     entities:

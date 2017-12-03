@@ -1,1 +1,3 @@
-  expose_by_default: false
+  expose_by_default: true
+  exposed_domains:
+    - light
