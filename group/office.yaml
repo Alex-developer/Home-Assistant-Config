@@ -57,7 +57,9 @@
   officeenv:
     name: "Environment"
     entities:
-      - sensor.office_lux
+      - sensor.aeotec_zw100_multisensor_6_luminance_4
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_4
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_4
       - sensor.office_temperature
       - sensor.neo_coolcam_water_leakage_detector_flood
   officeprinter:

@@ -15,22 +15,6 @@
     name: 'Chester Temperature'
 
   - platform: rest
-    resource: !secret hue_office_motion_url
-    value_template: "{{ 'Motion' if value_json.state.status == 1 else 'No Motion' }}"
-    name: 'Office Motion'
-    scan_interval: 5
-  - platform: rest
-    resource: !secret hue_office_lux_url
-    value_template: '{{ (10 ** (float(value_json.state.lightlevel) / 10000) -1) | round (1)}}'
-    unit_of_measurement: Lux
-    name: 'Office Lux'
-  - platform: rest
-    resource: !secret hue_office_temp_url
-    value_template: '{{ value_json.state.temperature | float / 100 }}'
-    unit_of_measurement: °C
-    name: 'Office Temperature'
-
-  - platform: rest
     resource: !secret hue_garage_motion_url
     value_template: "{{ 'Motion' if value_json.state.status == 1 else 'No Motion' }}"
     name: 'Garage Motion'

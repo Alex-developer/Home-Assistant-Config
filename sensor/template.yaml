@@ -36,6 +36,16 @@
       office_fan_power:
         value_template: '{{ states.switch.office_fan.attributes["current_consumption"] | replace(" W","") | int }}'
         unit_of_measurement: 'W'
+      office_motion:
+        friendly_name: 'Office Motion'
+        value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar_4','8') else 'No Motion' }}"
+      office_temperature:
+        friendly_name: 'Office Temperature'
+        value_template: "{{ states.sensor.aeotec_zw100_multisensor_6_temperature_4.state }} °C"
+      office_motion_battery:
+        friendly_name: 'Office Motion Battery'
+        value_template: '{{ states.zwave.aeotec_zw100_multisensor_6_4.attributes.battery_level }}'
+        unit_of_measurement: '%'
       alex_volts:
         value_template: '{{ states.switch.alex.attributes.Voltage }}'
         unit_of_measurement: 'V'
@@ -151,6 +161,18 @@
       hall_motion_battery:
         friendly_name: 'Hall Motion Battery'
         value_template: '{{ states.zwave.aeotec_zw100_multisensor_6_3.attributes.battery_level }}'
+        unit_of_measurement: '%'
+
+
+      bedroom_motion:
+        friendly_name: 'Bedroom Motion'
+        value_template: "{{ 'Motion' if is_state('sensor.aeotec_zw100_multisensor_6_burglar_5','8') else 'No Motion' }}"
+      bedroom_temperature:
+        friendly_name: 'Bedroom Temperature'
+        value_template: "{{ states.sensor.aeotec_zw100_multisensor_6_temperature_5.state }} °C"
+      bedroom_motion_battery:
+        friendly_name: 'Bedroom Motion Battery'
+        value_template: '{{ states.zwave.aeotec_zw100_multisensor_6_5.attributes.battery_level }}'
         unit_of_measurement: '%'
 
 

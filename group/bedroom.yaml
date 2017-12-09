@@ -3,3 +3,16 @@
     view: yes
     entities:
       - light.bedroom
+      - group.bedroomenv
+      - group.bedroommotion
+  bedroommotion:
+    name: "Bedroom Motion"
+    entities:
+      - sensor.bedroom_motion
+  bedroomenv:
+    name: "Environment"
+    entities:
+      - sensor.aeotec_zw100_multisensor_6_luminance_5
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_5
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_5
+      - sensor.bedroom_temperature

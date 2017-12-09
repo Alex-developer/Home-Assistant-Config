@@ -8,6 +8,7 @@
       - sensor.ring_last_ding
       - sensor.ring_front_door_battery
       - sensor.ring_last_motion
+      - camera.front_door
       - camera.office
       - camera.kitchen
       - camera.lounge
