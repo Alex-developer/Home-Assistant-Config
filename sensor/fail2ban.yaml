@@ -1,0 +1,5 @@
+  - platform: fail2ban
+    scan_interval: 60
+    jails:
+      - ssh
+      - hass-iptables

@@ -9,6 +9,7 @@
       - group.server_room_batteries
       - group.server_room_wifi_status
       - group.server_room_igd
+      - group.fail2ban
   server_room_pi:
     name: "Server"
     entities:
@@ -60,3 +61,8 @@
     name: "Home Assistant"
     entities:
       - sensor.uptime
+  fail2ban:
+    name: "Fail 2 Ban"
+    entities:
+      - sensor.fail2ban_hassiptables
+      - sensor.fail2ban_ssh
