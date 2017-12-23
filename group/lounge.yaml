@@ -7,10 +7,8 @@
       - group.loungelights
       - group.loungeenv
       - group.loungemotion
-      - media_player.lounge
-      - media_player.apple_tv
-      - media_player.lounge_tv
       - camera.lounge
+      - group.loungemedia
   loungeswitches:
     name: "Switches"
     control: hidden
@@ -27,6 +25,7 @@
       - light.lounge_lamp
       - light.lounge_spot
       - switch.christmas
+      - group.loungemedia
   loungedoors:
     name: "Doors"
     entities:
@@ -44,3 +43,10 @@
     name: "Motion"
     entities:
       - sensor.lounge_motion
+  loungemedia:
+    name: "Media"
+    entities:
+      - media_player.lounge_firetv
+      - media_player.lounge
+      - media_player.apple_tv
+      - media_player.lounge_tv

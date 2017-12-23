@@ -5,6 +5,7 @@
       - light.bedroom
       - group.bedroomenv
       - group.bedroommotion
+      - group.bedroommedia
   bedroommotion:
     name: "Bedroom Motion"
     entities:
@@ -16,3 +17,7 @@
       - sensor.aeotec_zw100_multisensor_6_ultraviolet_5
       - sensor.aeotec_zw100_multisensor_6_relative_humidity_5
       - sensor.bedroom_temperature
+  bedroommedia:
+    name: "Media"
+    entities:
+      - media_player.bedroom_firetv
