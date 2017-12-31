@@ -4,7 +4,6 @@
     entities:
       - group.frontcameraswitch
       - group.frontcamera
-      - group.frontxmaslights
   frontcameraswitch:
     name: "Switches"
     entities:
@@ -13,7 +12,3 @@
     name: "Front Camera"
     entities:
       - camera.front_garden
-  frontxmaslights:
-    name: "Front Lights"
-    entities:
-      - switch.front_light
