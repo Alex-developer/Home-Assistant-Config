@@ -1,0 +1,495 @@
+remote.lounge_apple_tv:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: 67c3192e470b5c241bb8ac1b095828f1dbceff9f86e702685bde8f3de4c2be4c
+media_player.lounge_apple_tv:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: 67c3192e470b5c241bb8ac1b095828f1dbceff9f86e702685bde8f3de4c2be4c
+sensor.alex_iphone_battery_level:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: level_alex_iphone
+sensor.alex_iphone_battery_state:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: state_alex_iphone
+binary_sensor.aeotec_zw120_door_window_sensor_gen5_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076463104
+sensor.aeotec_zw120_door_window_sensor_gen5_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528065
+sensor.aeotec_zw120_door_window_sensor_gen5_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528081
+sensor.aeotec_zw120_door_window_sensor_gen5_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528097
+sensor.aeotec_zw120_door_window_sensor_gen5_access_control:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528209
+sensor.aeotec_zw120_door_window_sensor_gen5_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528225
+binary_sensor.neo_coolcam_doorwindow_detector_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093240320
+sensor.neo_coolcam_doorwindow_detector_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305281
+sensor.neo_coolcam_doorwindow_detector_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305297
+sensor.neo_coolcam_doorwindow_detector_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305313
+sensor.neo_coolcam_doorwindow_detector_access_control:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305425
+binary_sensor.neo_coolcam_doorwindow_detector_sensor_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110017536
+sensor.neo_coolcam_doorwindow_detector_alarm_type_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082497
+sensor.neo_coolcam_doorwindow_detector_alarm_level_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082513
+sensor.neo_coolcam_doorwindow_detector_sourcenodeid_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082529
+sensor.neo_coolcam_doorwindow_detector_access_control_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082641
+binary_sensor.aeotec_zw100_multisensor_6_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126794752
+sensor.aeotec_zw100_multisensor_6_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126811154
+sensor.aeotec_zw100_multisensor_6_luminance:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126811186
+sensor.aeotec_zw100_multisensor_6_relative_humidity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126811218
+sensor.aeotec_zw100_multisensor_6_ultraviolet:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126811570
+sensor.aeotec_zw100_multisensor_6_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594127859713
+sensor.aeotec_zw100_multisensor_6_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594127859729
+sensor.aeotec_zw100_multisensor_6_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594127859745
+sensor.aeotec_zw100_multisensor_6_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594127859873
+binary_sensor.aeotec_zw100_multisensor_6_sensor_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143571968
+sensor.aeotec_zw100_multisensor_6_temperature_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588370
+sensor.aeotec_zw100_multisensor_6_luminance_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588402
+sensor.aeotec_zw100_multisensor_6_relative_humidity_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588434
+sensor.aeotec_zw100_multisensor_6_ultraviolet_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588786
+sensor.aeotec_zw100_multisensor_6_alarm_type_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636929
+sensor.aeotec_zw100_multisensor_6_alarm_level_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636945
+sensor.aeotec_zw100_multisensor_6_sourcenodeid_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636961
+sensor.aeotec_zw100_multisensor_6_burglar_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144637089
+binary_sensor.neo_coolcam_water_leakage_detector_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160349184
+sensor.neo_coolcam_water_leakage_detector_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414145
+sensor.neo_coolcam_water_leakage_detector_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414161
+sensor.neo_coolcam_water_leakage_detector_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414177
+sensor.neo_coolcam_water_leakage_detector_flood:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414273
+light.lounge_spot:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:30:23:1d-0b
+light.kitchen_1:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:20:5c:c3-0b
+light.hall_1:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:79:5b:61-0b
+light.office:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:73:99:57-0b
+light.hall_2:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:79:60:34-0b
+light.kitchen_3:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:38:bf:01-0b
+light.kitchen_lightstrip:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:15:a0:0b-0b
+light.bedroom:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7b:5a:15-0b
+light.lounge_lamp_2:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:88:6f:32-0b
+light.kitchen_2:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:38:be:f2-0b
+light.lounge_2:
+  config_entry_id: 0f79a6fc51b2400392922868da1d4dec
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7b:02:26-0b
+binary_sensor.aeotec_zw100_multisensor_6_sensor_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177126400
+sensor.aeotec_zw100_multisensor_6_temperature_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177142802
+sensor.aeotec_zw100_multisensor_6_luminance_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177142834
+sensor.aeotec_zw100_multisensor_6_relative_humidity_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177142866
+sensor.aeotec_zw100_multisensor_6_ultraviolet_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177143218
+sensor.aeotec_zw100_multisensor_6_alarm_type_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191361
+sensor.aeotec_zw100_multisensor_6_alarm_level_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191377
+sensor.aeotec_zw100_multisensor_6_sourcenodeid_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191393
+sensor.aeotec_zw100_multisensor_6_burglar_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191521
+binary_sensor.aeotec_zw100_multisensor_6_sensor_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193903616
+sensor.aeotec_zw100_multisensor_6_temperature_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193920018
+sensor.aeotec_zw100_multisensor_6_luminance_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193920050
+sensor.aeotec_zw100_multisensor_6_relative_humidity_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193920082
+sensor.aeotec_zw100_multisensor_6_tank_capacity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193920306
+sensor.aeotec_zw100_multisensor_6_ultraviolet_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193920434
+sensor.aeotec_zw100_multisensor_6_alarm_type_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968577
+sensor.aeotec_zw100_multisensor_6_alarm_level_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968593
+sensor.aeotec_zw100_multisensor_6_sourcenodeid_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968609
+sensor.aeotec_zw100_multisensor_6_burglar_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968737
+binary_sensor.aeotec_zw100_multisensor_6_sensor_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210680832
+sensor.aeotec_zw100_multisensor_6_temperature_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210697234
+sensor.aeotec_zw100_multisensor_6_luminance_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210697266
+sensor.aeotec_zw100_multisensor_6_relative_humidity_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210697298
+sensor.aeotec_zw100_multisensor_6_ultraviolet_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210697650
+sensor.aeotec_zw100_multisensor_6_alarm_type_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594211745793
+sensor.aeotec_zw100_multisensor_6_alarm_level_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594211745809
+sensor.aeotec_zw100_multisensor_6_sourcenodeid_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594211745825
+sensor.aeotec_zw100_multisensor_6_burglar_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594211745953
+media_player.office:
+  config_entry_id:
+  name:
+  platform: sonos
+  unique_id: RINCON_5CAAFD02113C01400
+light.chester_light:
+  config_entry_id:
+  name:
+  platform: lifx
+  unique_id: d0:73:d5:24:5b:c0
+sensor.aeotec_zw100_multisensor_6_direction:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193920114
+sensor.aeotec_zw100_multisensor_6_general:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177142818
+zwave.aeotec_zw090_zstick_gen5_eu:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.aeotec_zw120_door_window_sensor_gen5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-2
+zwave.neo_coolcam_doorwindow_detector:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.neo_coolcam_doorwindow_detector_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-4
+zwave.aeotec_zw100_multisensor_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.aeotec_zw100_multisensor_6_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-6
+zwave.neo_coolcam_water_leakage_detector:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-7
+zwave.aeotec_zw100_multisensor_6_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-8
+zwave.aeotec_zw100_multisensor_6_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-9
+zwave.aeotec_zw100_multisensor_6_5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-10
+media_player.kitchen_home:
+  config_entry_id: 919a4665b4e04b5fa619545afca0431f
+  name:
+  platform: cast
+  unique_id: 66ff8a50-dd2a-732e-7ccf-d85d7be5c785
+media_player.lounge:
+  config_entry_id: 919a4665b4e04b5fa619545afca0431f
+  name:
+  platform: cast
+  unique_id: 093846bc-58e2-99fa-abfa-78470e09de6f
+media_player.den_speaker:
+  config_entry_id: 919a4665b4e04b5fa619545afca0431f
+  name:
+  platform: cast
+  unique_id: 4e0dd920-f039-0c81-3d04-3272d708042c

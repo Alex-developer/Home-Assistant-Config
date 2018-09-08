@@ -2,17 +2,8 @@
     trigger:
       platform: state
       entity_id: sensor.office_motion
-      from: '0'
-      to: '1'
-    condition:
-      condition: and
-      conditions:
-        - condition: state
-          entity_id: device_tracker.alex
-          state: not_home
-        - condition: state
-          entity_id: device_tracker.rebecca
-          state: not_home
+      from: 'No Motion'
+      to: 'Motion'
     action:
       service: notify.alex_notify
       data:
@@ -22,17 +13,8 @@
     trigger:
       platform: state
       entity_id: sensor.office_motion
-      from: '1'
-      to: '0'
-    condition:
-      condition: and
-      conditions:
-        - condition: state
-          entity_id: device_tracker.alex
-          state: not_home
-        - condition: state
-          entity_id: device_tracker.rebecca
-          state: not_home
+      from: 'Motion'
+      to: 'No Motion'
     action:
       service: notify.alex_notify
       data:

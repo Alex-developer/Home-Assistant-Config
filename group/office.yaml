@@ -9,7 +9,6 @@
       - group.officemotion
       - group.officeenv
       - group.officecooling
-      - group.officeprinter
       - camera.office
       - group.foscamsettings
       - group.foscampicturesettings
@@ -62,13 +61,6 @@
       - sensor.aeotec_zw100_multisensor_6_relative_humidity_4
       - sensor.office_temperature
       - sensor.neo_coolcam_water_leakage_detector_flood
-  officeprinter:
-    name: "Epson Printer"
-    entities:
-      - sensor.epson_ink_level_cyan
-      - sensor.epson_ink_level_magenta
-      - sensor.epson_ink_level_yellow
-      - sensor.epson_ink_level_black
   foscamsettings:
     name: Camera Settings
     control: hidden
