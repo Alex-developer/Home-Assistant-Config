@@ -19,6 +19,10 @@
       - sensor.average_load_1m
       - sensor.average_load_5m
       - sensor.average_load_15m
+      - sensor.cpu_temp_core_0
+      - sensor.cpu_temp_core_1
+      - sensor.cpu_temp_core_2
+      - sensor.cpu_temp_core_3
       - sensor.since_last_boot
       - sensor.last_boot
   server_room_speedtest:

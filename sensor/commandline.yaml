@@ -1,0 +1,23 @@
+  - platform: command_line
+    name: CPU Temp Core 0
+    command: "cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon1/temp2_input"
+    unit_of_measurement: "°C"
+    value_template: "{{ (value | int) / 1000 }}"
+
+  - platform: command_line
+    name: CPU Temp Core 1
+    command: "cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon1/temp3_input"
+    unit_of_measurement: "°C"
+    value_template: "{{ (value | int) / 1000 }}"
+
+  - platform: command_line
+    name: CPU Temp Core 2
+    command: "cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon1/temp4_input"
+    unit_of_measurement: "°C"
+    value_template: "{{ (value | int) / 1000 }}"
+
+  - platform: command_line
+    name: CPU Temp Core 3
+    command: "cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon1/temp5_input"
+    unit_of_measurement: "°C"
+    value_template: "{{ (value | int) / 1000 }}"

@@ -1,0 +1,57 @@
+title: Home
+views:
+  - icon: mdi:view-dashboard
+    title: Dashboard
+    cards:
+      - type: entities
+        entities:
+          - switch.becs
+          - switch.alex
+          - switch.templateloungeitv
+      - type: entities
+        entities:
+          - light.lounge
+          - light.tv_backlight
+          - light.lounge_lamp
+          - light.lounge_spot
+
+      - type: picture-glance
+        title: Lounge
+        entities:
+          - light.lounge
+          - light.tv_backlight
+          - light.lounge_lamp
+          - light.lounge_spot
+          - switch.becs
+          - switch.alex
+        camera_image: camera.lounge
+
+  - icon: mdi:cctv
+    title: All CAmeras
+    cards:
+      - type: picture-entity
+        entity: camera.office
+      - type: picture-entity
+        entity: camera.kitchen
+      - type: picture-entity
+        entity: camera.lounge
+      - type: picture-entity
+        entity: camera.front_door
+      - type: picture-entity
+        entity: camera.front_garden
+
+  - icon: mdi:bed-empty
+    title: Bedroom
+    cards:
+      - type: entities
+        entities:
+          - light.bedroom
+      - type: entities
+        entities:
+          - sensor.bedroom_motion
+      - type: entities
+        entities:
+          - sensor.aeotec_zw100_multisensor_6_luminance_5
+          - sensor.aeotec_zw100_multisensor_6_ultraviolet_5
+          - sensor.aeotec_zw100_multisensor_6_relative_humidity_5
+          - sensor.bedroom_temperature
