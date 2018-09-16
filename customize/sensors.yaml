@@ -86,15 +86,15 @@ sensor.garage_temperature:
 #
 # Chesters Room
 #
-sensor.chester_motion:
+sensor.boris_motion:
   icon: mdi:walk
 
-sensor.chester_lux:
+sensor.boris_lux:
   friendly_name: 'Light Level'
   icon: mdi:theme-light-dark
 
-sensor.chester_temperature:
-  friendly_name: 'Chester Temperature'
+sensor.boris_temperature:
+  friendly_name: 'Boris Temperature'
   icon: mdi:thermometer-lines
 
 #

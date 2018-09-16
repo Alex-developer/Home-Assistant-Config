@@ -70,7 +70,7 @@
           entities:
             - sensor.lounge_motion
             - sensor.kitchen_motion
-            - sensor.chester_motion
+            - sensor.boris_motion
             - sensor.office_motion
             - sensor.garage_motion
           states:

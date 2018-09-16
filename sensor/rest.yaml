@@ -1,18 +1,18 @@
   - platform: rest
     resource: !secret hue_chester_motion_url
     value_template: "{{ 'Motion' if value_json.state.status == 1 else 'No Motion' }}"
-    name: 'Chester Motion'
+    name: 'Boris Motion'
     scan_interval: 5
   - platform: rest
     resource: !secret hue_chester_lux_url
     value_template: '{{ (10 ** (float(value_json.state.lightlevel) / 10000) -1) | round (1)}}'
     unit_of_measurement: Lux
-    name: 'Chester Lux'
+    name: 'Boris Lux'
   - platform: rest
     resource: !secret hue_chester_temp_url
     value_template: '{{ value_json.state.temperature | float / 100 }}'
     unit_of_measurement: °C
-    name: 'Chester Temperature'
+    name: 'Boris Temperature'
 
   - platform: rest
     resource: !secret hue_garage_motion_url

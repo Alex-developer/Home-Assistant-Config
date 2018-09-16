@@ -11,7 +11,7 @@
     entities:
       - sensor.lounge_motion
       - sensor.kitchen_motion
-      - sensor.chester_motion
+      - sensor.boris_motion
       - sensor.office_motion
       - sensor.garage_motion
   alltemp:
@@ -19,6 +19,6 @@
     entities:
       - sensor.netatmo_indoor_temperature
       - sensor.kitchen_temperature
-      - sensor.chester_temperature
+      - sensor.boris_temperature
       - sensor.garage_temperature
       - sensor.office_temperature

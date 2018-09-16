@@ -1,5 +1,5 @@
   chester:
-    name: "Chester's Room"
+    name: "Boris's Room"
     view: yes
     entities:
       - group.chesterenv
@@ -8,13 +8,13 @@
   chesterenv:
     name: "Environment"
     entities:
-      - sensor.chester_motion
-      - sensor.chester_lux
-      - sensor.chester_temperature
+      - sensor.boris_motion
+      - sensor.boris_lux
+      - sensor.boris_temperature
   chestermotion:
     name: "Motion"
     entities:
-      - sensor.chester_motion
+      - sensor.boris_motion
   chesterlights:
     name: "Lights"
     entities:
