@@ -4,6 +4,10 @@
         service: light.turn_on
         data:
           entity_id: light.office
+      - alias: Turn Desk Power On
+        service: switch.turn_on
+        data:
+          entity_id: switch.office_desk
       - alias: Turn PC Power On
         service: switch.turn_on
         data:
@@ -30,6 +34,10 @@
         service: switch.turn_off
         data:
           entity_id: switch.racing
+      - alias: Turn Desk Power Off
+        service: switch.turn_off
+        data:
+          entity_id: switch.office_desk
       - service: light.turn_off
         data:
           entity_id: light.office

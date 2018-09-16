@@ -1,35 +1,27 @@
   # Alex's plug
   - platform: tplink
-    host: 192.168.1.7
+    host: !secret tplink_alex_plug
 
   # Rebecca's Plug
   - platform: tplink
-    host: 192.168.1.5
+    host: !secret tplink_becs_plug
 
   # Office Desk
   - platform: tplink
-    host: 192.168.1.4
+    host: !secret tplink_officedesk_plug
 
   # Racing PC
   - platform: tplink
-    host: 192.168.1.9
+    host: !secret tplink_racingpc_plug
 
   # Chargers
   - platform: tplink
-    host: 192.168.1.49
+    host: !secret tplink_chargers_plug
 
   # Pi Server
   - platform: tplink
-    host: 192.168.1.52
-
-  # Christmas Tree
-  - platform: tplink
-    host: 192.168.1.55
+    host: !secret tplink_pi_plug
 
   # Front Camera
   - platform: tplink
-    host: 192.168.1.58
-
-  # Front Xmas Lights
-  - platform: tplink
-    host: 192.168.1.62
+    host: !secret tplink_frontcamera_plug
