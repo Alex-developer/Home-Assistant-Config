@@ -21,14 +21,14 @@
       - sensor.circle
       - sensor.district
       - sensor.dlr
-      - sensor.hammersmith__city
+      - sensor.hammersmith_city
       - sensor.jubilee
       - sensor.metropolitan
       - sensor.northern
       - sensor.piccadilly
       - sensor.tfl_rail
       - sensor.victoria
-      - sensor.waterloo__city
+      - sensor.waterloo_city
   london_train:
     name: "Next London Train"
     entities:

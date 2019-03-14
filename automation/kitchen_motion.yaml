@@ -1,21 +1,21 @@
-- alias: 'Lounge Motion Started'
+- alias: 'Kitchen Motion Started'
   trigger:
     platform: state
-    entity_id: sensor.lounge_motion
+    entity_id: sensor.kitchen_motion
     from: 'No Motion'
     to: 'Motion'
   action:
     service: notify.alex_notify
     data:
-      message: "There is motion in the Lounge"
+      message: "There is motion in the Kitchen"
 
-- alias: 'Lounge Motion Ended'
+- alias: 'Kitchen Motion Ended'
   trigger:
     platform: state
-    entity_id: sensor.lounge_motion
+    entity_id: sensor.kitchen_motion
     from: 'Motion'
     to: 'No Motion'
   action:
     service: notify.alex_notify
     data:
-      message: "There is no motion in the Lounge"
+      message: "There is no motion in the Kitchen"

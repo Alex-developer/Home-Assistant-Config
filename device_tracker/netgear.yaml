@@ -1,5 +1,0 @@
-  - platform: netgear
-    host: !secret netgear_ip
-    username: !secret netgear_username
-    password: !secret netgear_password
-    #port: !secret netgear_port

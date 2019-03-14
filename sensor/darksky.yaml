@@ -6,7 +6,6 @@
       - icon
       - nearest_storm_distance
       - nearest_storm_bearing
-      - precip_type
       - precip_intensity
       - precip_probability
       - temperature

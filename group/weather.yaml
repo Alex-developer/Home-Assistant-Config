@@ -26,7 +26,6 @@
       - sensor.dark_sky_nearest_storm_distance
       - sensor.dark_sky_nearest_storm_bearing
       - sensor.dark_sky_precip_probability
-      - sensor.dark_sky_precip_type
       - sensor.dark_sky_temperature
       - sensor.dark_sky_wind_speed
       - sensor.dark_sky_wind_bearing

@@ -1,0 +1,3 @@
+  host: !secret asus_ip
+  username: !secret asus_login
+  password: !secret asus_password

@@ -9,7 +9,6 @@
     name: "Garage"
     entities:
       - switch.chargers
-      - switch.washing
       - switch.front_camera
   garageenv:
     name: "Environment"

@@ -24,6 +24,7 @@ discovery: !include discovery/discovery.yaml
 zeroconf:
 map:
 
+system_health:
 ffmpeg: !include platform/ffmpeg.yaml
 recorder: !include recorder/recorder.yaml
 http: !include platform/http.yaml
@@ -53,6 +54,8 @@ zone:  !include zones/zone_alex_work.yaml
 zone 2:  !include zones/zone_rebecca_work.yaml
 script: !include_dir_merge_named script
 emulated_hue: !include platform/emulated_hue.yaml
-
+asuswrt: !include router/router.yaml
 input_number: !include_dir_merge_named input_number
 input_boolean: !include_dir_merge_named input_boolean
+tplink: !include tplink/tplink.yaml
+speedtestdotnet: !include speedtest/speedtest.yaml

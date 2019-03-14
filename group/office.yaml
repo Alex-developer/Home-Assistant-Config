@@ -19,7 +19,7 @@
   officelights:
     name: Lights
     entities:
-      - light.office
+      - light.office1
   officeswitches:
     name: Switches
     entities:
