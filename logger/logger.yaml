@@ -1,4 +1,7 @@
-  default: warning
+  default: warn
   logs:
     homeassistant.components.mqtt: debug
     homeassistant.components.http.ban: warning
+    homeassistant.components.sensor.dyson: debug
+    homeassistant.components.fan.dyson: debug
+    homeassistant.components.dyson: debug

@@ -45,7 +45,7 @@
   loungemedia:
     name: "Media"
     entities:
-      - media_player.lounge_firetv
+#      - media_player.lounge_firetv
       - media_player.lounge
       - media_player.apple_tv
       - media_player.lounge_tv

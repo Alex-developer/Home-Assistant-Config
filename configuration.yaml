@@ -6,6 +6,9 @@ homeassistant:
   unit_system: metric
   time_zone: Europe/London
   customize: !include_dir_merge_named customize
+  auth_providers:
+    - type: legacy_api_password
+      api_password: !secret api_password
 #  customize_glob: !include ui/ui.yaml
 
 #customizer:
@@ -59,3 +62,6 @@ input_number: !include_dir_merge_named input_number
 input_boolean: !include_dir_merge_named input_boolean
 tplink: !include tplink/tplink.yaml
 speedtestdotnet: !include speedtest/speedtest.yaml
+dyson: !include dyson/dyson.yaml
+person:
+blink: !include blink/blink.yaml

@@ -1,0 +1,8 @@
+  username: !secret dyson_login
+  password: !secret dyson_password
+  language: GB
+  timeout: 10
+  retry: 5
+  devices:
+    - device_id: !secret dyson_fan_id
+      device_ip: !secret dyson_fan_ip

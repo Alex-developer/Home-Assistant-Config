@@ -1,3 +1,9 @@
   host: !secret asus_ip
   username: !secret asus_login
   password: !secret asus_password
+  protocol: ssh
+  sensors:
+    - upload
+    - download
+    - upload_speed
+    - download_speed

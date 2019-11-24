@@ -1,6 +1,6 @@
-  - platform: firetv
-    device: lounge
-    name: "Lounge FireTv"
-  - platform: firetv
-    device: bedroom
-    name: "Bedroom FireTv"
+#  - platform: firetv
+#    device: lounge
+#    name: "Lounge FireTv"
+#  - platform: firetv
+#    device: bedroom
+#    name: "Bedroom FireTv"

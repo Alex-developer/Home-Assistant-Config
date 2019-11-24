@@ -20,4 +20,4 @@
   bedroommedia:
     name: "Media"
     entities:
-      - media_player.bedroom_firetv
+#      - media_player.bedroom_firetv

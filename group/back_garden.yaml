@@ -1,0 +1,5 @@
+backg:
+  name: "Back Garden"
+  view: yes
+  entities:
+    - camera.blink_garden
