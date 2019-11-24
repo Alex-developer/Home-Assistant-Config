@@ -38,7 +38,7 @@ views:
       - type: picture-entity
         entity: camera.front_door
       - type: picture-entity
-        entity: camera.front_garden
+        entity: camera.blink_garden
 
   - icon: mdi:bed-empty
     title: Bedroom

@@ -3,3 +3,8 @@ backg:
   view: yes
   entities:
     - camera.blink_garden
+    - binary_sensor.blink_garden_camera_armed
+    - binary_sensor.blink_garden_motion_detected
+    - sensor.blink_garden_battery
+    - sensor.blink_garden_temperature
+    - sensor.blink_garden_wifi_signal

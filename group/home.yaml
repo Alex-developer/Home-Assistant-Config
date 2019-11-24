@@ -12,7 +12,7 @@
       - camera.office
       - camera.kitchen
       - camera.lounge
-      - camera.front_garden
+      - camera.blink_garden
       - device_tracker.alexiphone
       - device_tracker.pi_alex_iphone
       - device_tracker.becsiphone

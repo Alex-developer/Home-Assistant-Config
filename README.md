@@ -55,6 +55,8 @@ My configuration files for Home Assistant
 + [Lifx Bulbs](https://uk.lifx.com/)
 + [Smarter Coffee Machine](https://smarter.am/coffee/)
 + [Logitech Harmony Remote](https://www.logitech.com/en-gb/harmony-universal-remotes)
++ [Dyson Fan](https://www.dyson.co.uk/fans-and-heaters.html)
++ [Blink Cameras](https://blinkforhome.co.uk/)
 
 ## Software/Plugins Used ##
 
